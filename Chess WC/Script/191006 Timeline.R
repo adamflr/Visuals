@@ -34,3 +34,16 @@ g <- dat_matches %>%
     theme(legend.title = element_blank())
 g
 #ggsave("Chess WC/Output/Timeline.pdf", g)
+
+## Champions, timeline
+dat_matches %>% 
+  filter(Status != "FIDE WCC", Year > 1900) %>% 
+  mutate(ChampionNA = ifelse(c(T, Champion2[-1] != Champion2[-length(Champion2)]),
+                             Champion2, NA)) %>% 
+  ggplot(aes(Year, 0)) + 
+  geom_point(aes(col = is.na(ChampionNA)), size = 5) +
+  geom_text(aes(label = ChampionNA), angle = 90, hjust = 0, vjust = 0.3, nudge_y = 0.05) +
+  geom_text(aes(label = `Runner-up`), angle = 90, hjust = 1, vjust = 0.3, nudge_y = -0.05) +
+  ylim(-1, 1) +
+  theme(legend.position = "none") +
+  scale_color_manual(values = c("red", "black"))
