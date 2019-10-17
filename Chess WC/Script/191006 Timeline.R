@@ -5,6 +5,7 @@ library(reshape2)
 library(magrittr)
 library(dplyr)
 library(cowplot)
+library(ggrepel)
 
 dat_matches$Champion2 <- unlist(lapply(strsplit(dat_matches$Champion2, " "), function(x) x[length(x)]))
 dat_matches$`Runner-up` <- unlist(lapply(strsplit(dat_matches$`Runner-up`, " "), function(x) x[length(x)]))
@@ -46,16 +47,21 @@ dat_matches %>%
   mutate(ChampionNA = ifelse(c(T, Champion2[-1] != Champion2[-length(Champion2)]),
                              Champion2, NA),
          ChampionOrder = cumsum(!is.na(ChampionNA)),
-         ChampionHeight = 0.5 - 0.4 * ChampionOrder/max(ChampionOrder)) -> dat_temp
-ggplot(dat_temp, aes(Year, 0)) + 
+         ChampionHeight = 0.5 - 0.4 * ChampionOrder/max(ChampionOrder),
+         `Runner-up` = ifelse(`Runner-up` == "players", "Tournament", `Runner-up`)) -> dat_temp
+g <- ggplot(dat_temp, aes(Year, 0)) + 
   geom_text(aes(label = ChampionNA, y = ChampionHeight), angle = 0, hjust = 0, vjust = 0, nudge_y = 0.01) +
-  geom_text(aes(label = `Runner-up`), angle = 90, hjust = 1, vjust = 0.3, nudge_y = -0.05) +
+  geom_text(aes(label = `Runner-up`, x = Year + c(0,0,-0.5,0.5,rep(0, dim(dat_temp)[1] - 4))), angle = 90, hjust = 1, vjust = 0.3, nudge_y = -0.015) +
   geom_line(aes(x, y, group = x), data = data.frame(x = rep(dat_temp$Year[!is.na(dat_temp$ChampionNA)], 2),
                                                     y = c(dat_temp$ChampionHeight[!is.na(dat_temp$ChampionNA)], rep(0, 18)))) +
-  geom_line(aes(x, 0.5, group = gr), data = data.frame(x = c(dat_temp$Year[!is.na(dat_temp$ChampionNA)], dat_temp$Year[!is.na(dat_temp$ChampionNA)][-1] - 1, 2019), gr = 1:18)) +
+  geom_line(aes(x, y, group = gr), data = data.frame(x = c(dat_temp$Year[!is.na(dat_temp$ChampionNA)], dat_temp$Year[!is.na(dat_temp$ChampionNA)][-1] - 1, 2019), 
+                                                     gr = 1:18,
+                                                     y = dat_temp$ChampionHeight[!is.na(dat_temp$ChampionNA)])) +
   geom_point(aes(col = is.na(ChampionNA)), size = 5) +
   geom_text(aes(label = Year), size = 1.5, col = ifelse(is.na(dat_temp$ChampionNA), "white", "black")) + 
-  ylim(-0.5, 0.6) +
+  ylim(-0.3, 0.6) +
   theme(legend.position = "none") +
   scale_color_manual(values = c("red", "black")) +
   theme_nothing()
+
+ggsave("Chess WC/Output/Timeline2.pdf", g, width = 25, height = 10)
