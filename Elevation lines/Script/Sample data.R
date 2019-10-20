@@ -1,9 +1,11 @@
 # Sample data
-xl <- 20
-x <- seq(-1,1,length.out = xl)^2
+set.seed(1901019)
+xl <- 200
+x <- cos(seq(-10, 10,length.out = xl))
 n <- 10
 dat <- matrix(rep(x, n), n, byrow = T)
-dat <- dat + apply(matrix(rnorm(xl * n, sd = 0.05), n), 2, cumsum)
+dat <- dat + apply(matrix(rnorm(xl * n, sd = 0.0025), n), 2, cumsum)
+#dat[,c(1, 2, xl - 1, xl)] <- 0
 dat <- data.frame(dat)
 
 dat$n <- 1:n
