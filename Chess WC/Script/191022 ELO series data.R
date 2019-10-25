@@ -1,4 +1,4 @@
-# Harvest for ELO time series
+# Harvest for ELO time series from chessmetrics.com. Gives ELO (or ELOesque) series from 1900 to 2004
 library(rvest)
 library(dplyr)
 
