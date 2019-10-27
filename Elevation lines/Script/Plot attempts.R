@@ -17,20 +17,21 @@ dat %>%
   geom_line(aes(x, log(n) + value, group = x))
 
 ## Scale length for perspective
-b <- 1.2
-sc <- 0.6
+b <- 1.02
+sc <- 10
 dat %>% 
   mutate(ln = (1 - (1/b)^(n-1))/(1 - 1/b),
          xs = as.vector(scale(x)) / (b^(n - 1)),
          value = ln + sc * value / (b^(n - 1))) %>% 
   ggplot(aes(xs, value, group = n)) + 
   geom_line() +
-  geom_line(aes(group = x), data = . %>% filter(!(x %% 10) | x == 1)) +
+#  geom_line(aes(group = x), data = . %>% filter(!(x %% 10) | x == 1)) +
 #  geom_line(aes(xs, ln)) +
 #  geom_line(aes(xs, ln, group = x)) +
   dark_theme_void() -> g
+g
 
-#ggsave("Elevation lines/Output/CosineCurve.pdf", g, width = 10, height = 10)
+#ggsave("Elevation lines/Output/SouthernSweden.pdf", g, width = 10, height = 10)
 
 # Grid data ----
 ## Equal distance between lines, no depth
