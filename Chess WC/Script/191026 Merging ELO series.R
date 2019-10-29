@@ -58,7 +58,7 @@ dat_champ <- dat_matches %>%
   ungroup()
 
 foo <- function(time){
-  dat <- dat_champ %>% filter(Year + 0.5 < time) %>% pull(`Unique reign`) %>% rev()
+  dat <- dat_champ %>% filter(Year <= time) %>% pull(`Unique reign`) %>% rev()
   dat[1]
 }
 
@@ -75,4 +75,5 @@ ggplot(dat) +
             data = dat %>% filter(`Champion status` == "Champion"), col = "red", se = F) +
 #  xlim(1996,2006) +
 #  scale_color_manual(values = c("Red", "Black")) +
-  theme_bw()
+  theme_bw() +
+  geom_vline(xintercept = c(1975, 1972, 1985))
