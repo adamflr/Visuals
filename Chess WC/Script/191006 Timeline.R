@@ -108,3 +108,14 @@ g2 <- ggplot(dat_temp, aes(Year, 0)) +
 g2
 
 ggsave("Chess WC/Output/Timeline4.pdf", g2, width = 25, height = 10)
+
+mutate(RatingStand = (Rating - min(Rating)) / max(Rating)) -> dat_elo
+
+g2 <- g +
+  geom_line(aes(Year + (Month - 1) / 12, RatingStand, group = Ranking), inherit.aes = F, 
+            data = dat_elo %>% filter(Year > 1920), alpha = 0.2) +
+  geom_smooth(aes(Year + (Month - 1) / 12, RatingStand, group = Champion), 
+              data = dat_elo %>% filter(Champion.status == "Champion", Year > 1920), 
+              inherit.aes = F, col = "red", se = F)
+
+ggsave("Chess WC/Output/Timeline3.pdf", g2, width = 25, height = 10)
