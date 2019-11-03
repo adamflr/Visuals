@@ -7,6 +7,7 @@ library(dplyr)
 library(cowplot)
 library(ggrepel)
 
+source("Chess WC/Script/191006 Data import.R")
 dat_matches$Champion2 <- unlist(lapply(strsplit(dat_matches$Champion2, " "), function(x) x[length(x)]))
 dat_matches$`Runner-up` <- unlist(lapply(strsplit(dat_matches$`Runner-up`, " "), function(x) x[length(x)]))
 
@@ -77,6 +78,8 @@ dat_elo %>%
   filter(Year > 1920) %>% 
   mutate(RatingStand = (Rating - min(Rating)) / (max(Rating) - min(Rating))) -> dat_elo
 
+dat_temp %>% mutate(ChampionHeight = ifelse(Champion2 %in% c("Smyslov", "Tal", "Petrosian"), 1.2, 1.3)) -> dat_temp
+
 g2 <- ggplot(dat_temp, aes(Year, 0)) + 
   geom_text(aes(label = ChampionNA, y = ChampionHeight), angle = 0, hjust = 0, vjust = 0, nudge_y = 0.01) +
   geom_text(aes(label = `Runner-up`, x = Year), 
@@ -84,10 +87,10 @@ g2 <- ggplot(dat_temp, aes(Year, 0)) +
   geom_line(aes(Year + (Month - 1) / 12, RatingStand, group = Ranking), inherit.aes = F, 
             data = dat_elo %>% filter(Year > 1920), alpha = 0.2) +
   geom_text(aes(x, y, label = text), 
-            data = data.frame(x = 1948, y = -0.4, text = "In 1948, Botvinnik places first \nin the Hague-Moscow tournament, \nahead of Smyslov, Keres, Reshevsky \nand Euwe."), 
+            data = data.frame(x = 1948, y = -0.5, text = "In 1948, Botvinnik places first \nin the Hague-Moscow tournament, \nahead of Smyslov, Keres, Reshevsky \nand Euwe."), 
             hjust = 0, nudge_x = -0.5, size = 2) +
   geom_text(aes(x, y, label = text), 
-            data = data.frame(x = 2007, y = -0.4, text = "In 2007, Anand places first \nin the Mexico City tournament, \nahead of Kramnik, Gelfand, \nLeko, Svidler, Morozevich, \nAronian and Grischuk."), 
+            data = data.frame(x = 2007, y = -0.5, text = "In 2007, Anand places first \nin the Mexico City tournament, \nahead of Kramnik, Gelfand, \nLeko, Svidler, Morozevich, \nAronian and Grischuk."), 
             hjust = 0, size = 2, nudge_x = -0.5) +
   geom_smooth(aes(Year + (Month - 1) / 12, RatingStand, group = Champion), 
               data = dat_elo %>% filter(Champion.status == "Champion", Year > 1920), 
@@ -101,10 +104,11 @@ g2 <- ggplot(dat_temp, aes(Year, 0)) +
                               y = dat_temp$ChampionHeight[!is.na(dat_temp$ChampionNA)])) +
   geom_point(aes(col = is.na(ChampionNA)), size = 5) +
   geom_text(aes(label = Year), size = 1.5, col = ifelse(is.na(dat_temp$ChampionNA), "white", "black")) + 
-  ylim(-0.5, 2) +
+  ylim(-0.95, 1.7) +
   theme(legend.position = "none") +
   scale_color_manual(values = c("red", "black")) +
   theme_nothing()
-g2
+#g2
 
-ggsave("Chess WC/Output/Timeline4.pdf", g2, width = 25, height = 10)
+ggsave("Chess WC/Output/Timeline5.pdf", g2, width = 59.4, height = 42/2, units = "cm")
+
