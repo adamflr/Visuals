@@ -13,6 +13,7 @@ g <- dat %>%
   shadow_mark(past = T, future = F) +
   labs(title = 'Dag: {as_date(frame_time)}', x = "", y = "") +
   theme_bw() +
-  theme(legend.position = "none", axis.text = element_blank(), panel.grid = element_blank())
+  theme(legend.position = "none", axis.text = element_blank(), panel.grid = element_blank(), axis.ticks = element_blank())
 
-animate(g, duration = 60, end_pause = 30, nframes = 1000)
+animate(g, duration = 30, end_pause = 30, nframes = 1000, height = 400, width = 1000)
+anim_save("Species portal/Output/Sorgmantel2019.gif")
