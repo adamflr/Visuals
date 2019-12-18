@@ -1,10 +1,13 @@
 # Animated graphs
 library(gganimate)
+library(dplyr)
+library(lubridate)
 
 ## Points over time
 g <- dat %>% 
   ggplot(aes(Ostkoordinat + month(Startdatum) * 700000, Nordkoordinat, color = month(Startdatum, label = T))) + 
   geom_point(aes(group = seq_along(Id))) + 
+  geom_path(aes(X1, X2), data = dat_swe_border, inherit_aes = F) +
   coord_equal() +
   #facet_wrap(dat %>% pull(Startdatum) %>% ymd() %>% month(label = T)) +
   transition_time(as.numeric(date(Startdatum))) +
