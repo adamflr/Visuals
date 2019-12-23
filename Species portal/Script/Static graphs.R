@@ -18,3 +18,6 @@ ggplot() +
   geom_path(aes(X1, X2), data = dat_swe_border) +
   theme_bw() + 
   coord_equal()
+
+# Swedish border
+dat_swe@polygons %>% class()
