@@ -1,7 +1,7 @@
 # Import
 library(readxl)
 
-dat <- read_excel("Species portal/Data/ExcelExport_1.xlsx", skip = 2)
+dat_sm <- read_excel("Species portal/Data/ExcelExport_1.xlsx", skip = 2)
 
 library(rgdal)
 dat_swe <- readOGR("Species portal/Data/rt90_swe/rt90_swe.shp")
