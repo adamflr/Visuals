@@ -64,11 +64,12 @@ dat_swe_borders[rep(1:l, 12),] %>%
          col = rep(rep(1:c, r), each = l)) -> dat_swe_borders
 
 ## Monthly map
-g <- ggplot(dat_swe_borders, aes(x + col/2, y + row, group = paste0(month, "_", id), fill = paste0(month, "_", hole))) +
+g <- ggplot(dat_swe_borders, aes(x + col/2, y + row, group = paste0(month, "_", id), fill = as.character(ifelse(!hole, month, NA)))) +
   geom_polygon(col = "black") +
   coord_equal() +
   theme_nothing() + 
-  theme(legend.position = "none")
+  theme(legend.position = "none") +
+  scale_fill_discrete(na.value="white")
 g
 
 ## Monthly w. species
@@ -84,7 +85,7 @@ g <- g +
   geom_point(aes(x + c / 2, y + r), inherit.aes = F, data = dat_sm, size = 0.1, col = "red")
 g
 
-ggplotly(g)
+#ggplotly(g)
 
 ## Observations per day, per week
 obs_per_day <- data.frame(day = ymd("2019-01-01") + 0:364, day_no = 1:365)
@@ -103,3 +104,7 @@ g
 g +
   geom_text(aes(x, y, label = month), inherit.aes = F,
             data = data.frame(month = month.name, y = 2.1, x = 1:12 / 2 + 0.25), size = 2.5)
+
+# Density?
+g +
+  geom_density2d()
