@@ -104,7 +104,3 @@ g
 g +
   geom_text(aes(x, y, label = month), inherit.aes = F,
             data = data.frame(month = month.name, y = 2.1, x = 1:12 / 2 + 0.25), size = 2.5)
-
-# Density?
-g +
-  geom_density2d()
