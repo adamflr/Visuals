@@ -36,3 +36,5 @@ dat_temp <- bind_rows(dat_temp, dat_matcher)
 
 print(dat_sasong)
 }
+
+# write_csv(dat_temp, "Allsvenska/Data_out/Alls_matcher.csv")
