@@ -3,19 +3,25 @@ library(tidyverse)
 
 dat_match <- read_csv("Allsvenska/Data_out/Alls_matcher.csv")
 
-mål_säsong <- 1968
+mål_säsong <- 2010
 
 dat_match %>% 
   select(-domare, -publik, datum) %>% 
   mutate(segrare = ifelse(hemmamal == bortamal, "lika", 
-                         ifelse(hemmamal > bortamal, "hemma", "borta")),
+                          ifelse(hemmamal > bortamal, "hemma", "borta")),
          id = 1:n()) %>% 
   pivot_longer(-c(hemmamal, bortamal, datum, sasong, segrare, id), names_to = "plats", values_to = "lag") %>% 
   mutate(status = ifelse(plats == segrare, "seger",
-                         ifelse(segrare == "lika", "lika", "förlust"))) %>% 
+                         ifelse(segrare == "lika", "lika", "förlust")),
+         gjorda_mål = ifelse(plats == "hemma", hemmamal, bortamal),
+         insläppta_mål = ifelse(plats == "hemma", bortamal, hemmamal)) %>% 
   filter(sasong == mål_säsong) %>% 
-  count(lag, status) %>% 
-  pivot_wider(names_from = status, values_from = n, values_fill = 0) %>% 
-  mutate(poäng = lika + 2 * seger) %>% 
-  arrange(-poäng) %>% 
-  select(lag, seger, lika, förlust, poäng)
+  group_by(lag) %>% 
+  summarise(vunna = sum(status == "seger"),
+            oavgjorda = sum(status == "lika"),
+            förluster = sum(status == "förlust"),
+            gjorda_mål = sum(gjorda_mål),
+            insläppta_mål = sum(insläppta_mål)) %>% 
+  mutate(måldifferens = gjorda_mål - insläppta_mål,
+         poäng = oavgjorda + 3 * vunna) %>% 
+  arrange(-poäng, - måldifferens)
