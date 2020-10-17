@@ -25,3 +25,5 @@ dat_match %>%
   mutate(måldifferens = gjorda_mål - insläppta_mål,
          poäng = oavgjorda + 3 * vunna) %>% 
   arrange(-poäng, - måldifferens)
+
+unique(dat_match$sasong)[c(1, unique(dat_match$sasong) %>% substr(1,4) %>% as.numeric() %>% diff()) != 1]
