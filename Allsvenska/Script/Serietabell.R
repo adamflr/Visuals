@@ -3,7 +3,7 @@ library(tidyverse)
 
 dat_match <- read_csv("Allsvenska/Data_out/Alls_matcher.csv")
 
-mål_säsong <- 2010
+mål_säsong <- "1933_1934"
 
 dat_match %>% 
   select(-domare, -publik, datum) %>% 
@@ -23,7 +23,7 @@ dat_match %>%
             gjorda_mål = sum(gjorda_mål),
             insläppta_mål = sum(insläppta_mål)) %>% 
   mutate(måldifferens = gjorda_mål - insläppta_mål,
-         poäng = oavgjorda + 3 * vunna) %>% 
+         poäng = oavgjorda + 2 * vunna) %>% 
   arrange(-poäng, - måldifferens)
 
 unique(dat_match$sasong)[c(1, unique(dat_match$sasong) %>% substr(1,4) %>% as.numeric() %>% diff()) != 1]
