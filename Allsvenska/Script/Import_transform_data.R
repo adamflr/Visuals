@@ -3,6 +3,7 @@ library(rvest)
 library(tidyverse)
 library(purrr)
 library(stringi)
+library(lubridate)
 
 # Inläsning av nedladdade filer med matcher 1924-2016, exklusive 1933-34 ----
 dat_temp <- read_csv("\n", c("hemma", "borta", "hemmamal", "bortamal", 
@@ -61,8 +62,28 @@ alls_33_34 <- tibble(raw = alls_33_34) %>%
 
 alls_33_34 <- alls_33_34 %>% 
   mutate(publik = NA, domare = NA, sasong = "1933_1934") %>% 
-  select(hemma, borta, hemmamal, bortamal, publik, domare, datum, sasong)
+  select(hemma, borta, hemmamal, bortamal, publik, domare, datum, sasong) %>% 
+  arrange(-(1:n()))
+
 
 dat_temp <- bind_rows(dat_temp, alls_33_34) %>% arrange(sasong)
 
+# Datum från text till date
+dat_temp <- dat_temp %>% 
+  mutate(datum = gsub(" 1934", "", datum),
+         datum = gsub(" 1933", "", datum),
+         månad = gsub(".* ", "", datum),
+         månad = factor(månad, levels = c("januari", "februari", "mars", "april", "maj", "juni", 
+                                          "juli", "augusti", "september", "oktober", "november", "december")) %>% as.numeric(),
+         dag = map_chr(gsub("  ", " ", datum), function(x) str_split(x, " ")[[1]][2]),
+         år = as.numeric(substr(sasong, 1, 4)),
+         id = 1:n()) %>%
+  group_by(sasong) %>% 
+  mutate(efter_nyår = cumsum(månad < first(månad)) > 0,
+         år = ifelse(efter_nyår, år + 1, år)) %>% 
+  ungroup() %>% 
+  mutate(datum = ymd(paste(år, månad, dag, sep = "-"))) %>% 
+  select(-månad, -dag, -år, -id, -efter_nyår)
+
+# Export
 write_csv(dat_temp, "Allsvenska/Data_out/Alls_matcher.csv")
