@@ -65,6 +65,9 @@ alls_33_34 <- alls_33_34 %>%
   select(hemma, borta, hemmamal, bortamal, publik, domare, datum, sasong) %>% 
   arrange(-(1:n()))
 
+alls_33_34 <- alls_33_34 %>% 
+  mutate_at(vars(hemma, borta), function(x) gsub("IFK Göteborg", "Göteborg", x))%>% 
+  mutate_at(vars(hemma, borta), function(x) gsub("Helsingborg", "Helsingborgs IF", x))
 
 dat_temp <- bind_rows(dat_temp, alls_33_34) %>% arrange(sasong)
 
