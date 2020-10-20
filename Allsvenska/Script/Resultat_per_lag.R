@@ -1,11 +1,9 @@
-# Skapa serietabell
+# Maratontabell
 library(tidyverse)
 
 dat_match <- read_csv("Allsvenska/Data_out/Alls_matcher.csv")
 
-mål_säsong <- "1933_1934"
-
-dat_match %>% 
+dat_long <- dat_match %>% 
   select(-domare, -publik) %>% 
   mutate(segrare = ifelse(hemmamal == bortamal, "lika", 
                           ifelse(hemmamal > bortamal, "hemma", "borta")),
@@ -15,15 +13,21 @@ dat_match %>%
                          ifelse(segrare == "lika", "lika", "förlust")),
          gjorda_mål = ifelse(plats == "hemma", hemmamal, bortamal),
          insläppta_mål = ifelse(plats == "hemma", bortamal, hemmamal)) %>% 
-  filter(sasong == mål_säsong) %>% 
-  group_by(lag) %>% 
-  summarise(vunna = sum(status == "seger"),
-            oavgjorda = sum(status == "lika"),
-            förluster = sum(status == "förlust"),
-            gjorda_mål = sum(gjorda_mål),
-            insläppta_mål = sum(insläppta_mål)) %>% 
+  arrange(datum) %>% 
+  group_by(lag, sasong) %>% 
+  mutate(vunna = cumsum(status == "seger"),
+         oavgjorda = cumsum(status == "lika"),
+         förluster = cumsum(status == "förlust"),
+         gjorda_mål = cumsum(gjorda_mål),
+         insläppta_mål = cumsum(insläppta_mål),
+         omgång = 1:n()) %>% 
   mutate(måldifferens = gjorda_mål - insläppta_mål,
          poäng = oavgjorda + 2 * vunna) %>% 
-  arrange(-poäng, - måldifferens)
+  ungroup()
 
-unique(dat_match$sasong)[c(1, unique(dat_match$sasong) %>% substr(1,4) %>% as.numeric() %>% diff()) != 1]
+g1 <- dat_long %>% 
+  ggplot(aes(omgång, poäng, group = lag)) +
+  geom_line(col = "grey20") +
+  geom_line(data = . %>% filter(lag == "Malmö"), col = "lightblue", size = 3) +
+  facet_wrap(~ gsub("_", "-", sasong), scale = "free_x", strip.position = "left")
+g1
