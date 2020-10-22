@@ -1,5 +1,6 @@
 # Maratontabell
 library(tidyverse)
+library(ggrepel)
 
 dat_match <- read_csv("Allsvenska/Data_out/Alls_matcher.csv")
 
@@ -23,7 +24,7 @@ dat_long <- dat_match %>%
          insläppta_mål = cumsum(insläppta_mål),
          omgång = 1:n()) %>% 
   mutate(måldifferens = gjorda_mål - insläppta_mål,
-         poäng = oavgjorda + 2 * vunna) %>% 
+         poäng = oavgjorda + 3 * vunna) %>% 
   ungroup()
 
 g1 <- dat_long %>% 
@@ -41,8 +42,20 @@ dat_long <- dat_long %>%
 dat_long <- dat_long %>% 
   arrange(lag) %>% 
   filter(Color != "grey20")
+
+dat_long <- rbind(dat_long, dat_long %>% filter(omgång == 1) %>% mutate(omgång = 0, poäng = 0))
+
 g2 <- ggplot(dat_long, aes(omgång, poäng, col = lag)) +
-  geom_smooth(size = 2, span = 0.2, se = F) +
+  # geom_smooth(size = 2, span = 0.2, se = F) +
+  geom_line(size = 2, alpha = 0.75) +
+  geom_point(data = dat_long) +
+  geom_point(aes(x = omgång + 1), data = dat_long %>% filter(omgång == max(omgång))) +
+  geom_text_repel(aes(x = omgång + 1, label = paste0(lag, ", ", poäng, "p")), 
+                  data = dat_long %>% filter(omgång == max(omgång)), 
+                  hjust = 0, direction = "y", nudge_x = 1) +
   scale_color_manual(values = unique(dat_long$Color)) +
-  facet_wrap(~ gsub("_", "-", sasong), scale = "free_x", strip.position = "left")
+  facet_wrap(~ gsub("_", "-", sasong), scale = "free_x", strip.position = "left") +
+  theme_bw() +
+  theme(legend.position = "none") +
+  coord_cartesian(xlim = c(0, 40))
 g2
