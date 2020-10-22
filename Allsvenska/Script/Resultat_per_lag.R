@@ -1,6 +1,7 @@
 # Maratontabell
 library(tidyverse)
 library(ggrepel)
+library(extrafont)
 
 dat_match <- read_csv("Allsvenska/Data_out/Alls_matcher.csv")
 
@@ -52,10 +53,10 @@ g2 <- ggplot(dat_long, aes(omgång, poäng, col = lag)) +
   geom_point(aes(x = omgång + 1), data = dat_long %>% filter(omgång == max(omgång))) +
   geom_text_repel(aes(x = omgång + 1, label = paste0(lag, ", ", poäng, "p")), 
                   data = dat_long %>% filter(omgång == max(omgång)), 
-                  hjust = 0, direction = "y", nudge_x = 1) +
+                  hjust = 0, direction = "y", nudge_x = 1, family = "Garamond") +
   scale_color_manual(values = unique(dat_long$Color)) +
-  facet_wrap(~ gsub("_", "-", sasong), scale = "free_x", strip.position = "left") +
+  facet_wrap(~ gsub("_", "-", sasong), scale = "free_x", strip.position = "top") +
   theme_bw() +
-  theme(legend.position = "none") +
+  theme(legend.position = "none", text = element_text(family = "Garamond")) +
   coord_cartesian(xlim = c(0, 40))
 g2
