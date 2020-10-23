@@ -9,13 +9,14 @@ dat_teams_col <- tribble(
   "IFK Göteborg",     "244b9a",
   "Göteborg",         "244b9a",
   "Malmö",            "0091d4",
-  "AIK",              "012e57",
+  "AIK",              "000000",
   "Norrköping",       "004ea6",
-  "Djurgården",       "db0c14",
+  "Djurgården",       "002454",
   "Hammarby",         "00ab4d",
   "Häcken",           "241f1f",
   "Elfsborg",         "f7db15",
   "Kalmar",           "d9263b",
+  "Gais",             "006c2b",
   "GAIS",             "006c2b",
   "Helsingborgs IF",  "d42719",
   "Helsingborg",      "d42719",
@@ -28,13 +29,16 @@ dat_teams_col <- tribble(
   "Brommapojkarna",   "c54852",
   "Sundsvall",        "006cb7",
   "Halmstads BK",     "1c498d",
+  "Halmstad",         "1c498d",
   "AFC Eskilstuna",   "a59361",
   "Trelleborg",       "0a74bb",
   "Örgryte",          "780807",
   "Syrianska",        "f20823",
   "Brage",            "037a39",
   "Öster",            "ae2008",
-  "Jönköping",        "00633a"
+  "Jönköping",        "00633a",
+  "Gefle",            "0062af",
+  "Åtvidaberg",       "005894"
 )
 
 dat_teams_col$Color <- paste0("#", dat_teams_col$Color)
