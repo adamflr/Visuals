@@ -7,7 +7,7 @@ library(lubridate)
 
 # Inläsning av nedladdade filer med matcher 1924-2016, exklusive 1933-34 ----
 dat_temp <- read_csv("\n", c("hemma", "borta", "hemmamal", "bortamal", 
-                 "publik", "domare", "datum", "sasong"))
+                 "publik", "domare", "arena", "datum", "sasong"))
 
 fileslist <- list.files("Allsvenska/Data/old.allsvenskan/", full.names = T)
 for(filename in fileslist){
@@ -42,7 +42,7 @@ print(dat_sasong)
 
 # write_csv(dat_temp, "Allsvenska/Data_out/Alls_matcher.csv")
 
-# Inläsning av 1933-34. Saknad i old.allsvenskan.se. Kopierad från någon sida
+# Inläsning av 1933-34. Saknad i old.allsvenskan.se. Kopierad från någon sida ----
 alls_33_34 <- readLines("Allsvenska/Data/Alls_1933_1934_raw.txt", encoding = "UTF-8")
 
 alls_33_34 <- tibble(raw = alls_33_34) %>% 
@@ -71,7 +71,7 @@ alls_33_34 <- alls_33_34 %>%
 
 dat_temp <- bind_rows(dat_temp, alls_33_34) %>% arrange(sasong)
 
-# Datum från text till date
+# Datum från text till date ----
 dat_temp <- dat_temp %>% 
   mutate(datum = gsub(" 1934", "", datum),
          datum = gsub(" 1933", "", datum),
@@ -88,5 +88,9 @@ dat_temp <- dat_temp %>%
   mutate(datum = ymd(paste(år, månad, dag, sep = "-"))) %>% 
   select(-månad, -dag, -år, -id, -efter_nyår)
 
-# Export
+# Publik till numerisk ----
+dat_temp <- dat_temp %>% 
+  mutate(publik = as.numeric(gsub(" ", "", publik)))
+
+# Export ----
 write_csv(dat_temp, "Allsvenska/Data_out/Alls_matcher.csv")

@@ -19,9 +19,22 @@ clean_event_class <- function(x){
     subset(!check_all_spaces(.)) %>%
     purrr::map_chr(remove_starting_spaces)
   
-  match_data <- match_data[c(1,3,4,6,8,10)]
+  match_data_vect <- rep(NA, 7)
+  match_data_vect[1:4] <- match_data[c(1,3,4,6)]
   
-  tab <- as_tibble(matrix(match_data, 1, 6))
-  names(tab) <- c("hemma", "borta", "hemmamal", "bortamal", "publik", "domare")
+  match_data_vect[5] <- ifelse(any(match_data == "Publik:"), 
+                          match_data[which(match_data == "Publik:") + 1],
+                          NA)
+  
+  match_data_vect[6] <- ifelse(any(match_data == "Domare:"), 
+                          match_data[which(match_data == "Domare:") + 1],
+                          NA)
+  
+  match_data_vect[7] <- ifelse(any(match_data == "Arena:"), 
+                          match_data[which(match_data == "Arena:") + 1],
+                          NA)
+  
+  tab <- as_tibble(matrix(match_data_vect, 1, 7))
+  names(tab) <- c("hemma", "borta", "hemmamal", "bortamal", "publik", "domare", "arena")
   tab
 }

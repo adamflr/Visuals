@@ -3,7 +3,8 @@ library(tidyverse)
 library(ggrepel)
 library(extrafont)
 
-dat_match <- read_csv("Allsvenska/Data_out/Alls_matcher.csv")
+dat_match <- read_csv("Allsvenska/Data_out/Alls_matcher.csv",
+                      col_types = "ccnnnccDc")
 
 dat_long <- dat_match %>% 
   select(-domare, -publik) %>% 
