@@ -7,7 +7,7 @@ dat_match <- read_csv("Allsvenska/Data_out/Alls_matcher.csv",
                       col_types = "ccnnnccDc")
 
 dat_long <- dat_match %>% 
-  select(-domare, -publik) %>% 
+  select(-domare, -publik, -arena) %>% 
   mutate(segrare = ifelse(hemmamal == bortamal, "lika", 
                           ifelse(hemmamal > bortamal, "hemma", "borta")),
          id = 1:n()) %>% 
@@ -61,7 +61,8 @@ g2 <- ggplot(dat_long, aes(omgång, poäng, col = lag)) +
   facet_wrap(~ gsub("_", "-", sasong), scale = "free_x", strip.position = "top") +
   theme_bw() +
   theme(legend.position = "none", text = element_text(family = "Garamond")) +
-  coord_cartesian(xlim = c(0, 40))
+  coord_cartesian(xlim = c(0, 40)) +
+  xlab("Omgång") + ylab("Poäng")
 g2
 
 # Justerat mot näst-bästa lag
