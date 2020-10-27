@@ -1,4 +1,4 @@
-# Maratontabell
+# Linjediagram, poäng per omgång
 library(tidyverse)
 library(ggrepel)
 library(extrafont)
@@ -65,7 +65,10 @@ g2 <- ggplot(dat_long, aes(omgång, poäng, col = lag)) +
   xlab("Omgång") + ylab("Poäng")
 g2
 
-# Justerat mot näst-bästa lag
+ggsave("Allsvenska/Figures_out/Alls_2010.png", g2, width = 10, height = 8)
+ggsave("Allsvenska/Figures_out/Alls_2010.pdf", g2, width = 10, height = 8)
+
+# Justerat mot näst-bästa lag ----
 mål_lag <- "Helsingborg"
 dat_long <- dat_long %>% 
   group_by(omgång) %>% 
