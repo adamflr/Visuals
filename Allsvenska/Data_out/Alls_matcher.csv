@@ -379,7 +379,7 @@ Landskrona,IFK Uddevalla,3,1,2059,John Johansson,NA,1927-05-22,1926_1927
 Norrköping,Elfsborg,1,1,1402,Ragnar Bäckström,NA,1927-05-22,1926_1927
 IFK Eskilstuna,Sleipner,5,2,1930,"Sigfrid Benzer, Halmstad",NA,1927-05-22,1926_1927
 AIK,Örgryte,2,0,9158,Otto Ohlsson,NA,1927-05-22,1926_1927
-Westermalm,Elfsborg,6,0,6878,"Sigfrid Benzer, Halmstad ",NA,1927-05-26,1926_1927
+Westermalm,Elfsborg,6,0,6878,"Sigfrid Benzer, Halmstad",NA,1927-05-26,1926_1927
 Norrköping,Helsingborg,2,5,2047,John Andersson,NA,1927-05-26,1926_1927
 IFK Eskilstuna,AIK,1,3,2525,Thore Ekström,NA,1927-05-26,1926_1927
 Örgryte,Sleipner,3,0,1773,Rudolf Börjesson,NA,1927-05-26,1926_1927
@@ -13953,7 +13953,7 @@ AIK,Kalmar,2,1,15078,Johan Hamlin,"Nationalarenan, Friends Arena",2015-08-16,201
 Göteborg,Häcken,4,0,13635,NA,Gamla Ullevi,2015-08-16,2015
 Elfsborg,Djurgården,2,0,10396,NA,Borås Arena,2015-08-16,2015
 Falkenberg,Hammarby,0,1,3907,Kristoffer Karlsson,Falkenbergs IP,2015-08-17,2015
-Helsingborg,Halmstad,2,0,9458,Glenn Nyberg ,"Olympia, Helsingborg",2015-08-17,2015
+Helsingborg,Halmstad,2,0,9458,Glenn Nyberg,"Olympia, Helsingborg",2015-08-17,2015
 Åtvidaberg,Norrköping,1,1,7112,NA,Kopparvallen,2015-08-17,2015
 Häcken,Malmö,1,0,4172,NA,Bravida Arena,2015-08-22,2015
 Åtvidaberg,Göteborg,0,1,4461,NA,Kopparvallen,2015-08-23,2015
@@ -14275,3 +14275,723 @@ Norrköping,Göteborg,3,1,7483,NA,Östgötaporten,2016-11-06,2016
 Sundsvall,Djurgården,2,5,3295,NA,Norrporten Arena,2016-11-06,2016
 Östersund,Gefle,2,4,4778,NA,Jämtkraft Arena,2016-11-06,2016
 Malmö,Hammarby,3,0,21719,Stefan Johannesson,Stadion,2016-11-06,2016
+IFK Göteborg,Malmö FF,1,1,32129,Stefan Johannesson (Stockholm),Nya Ullevi[2][a],2017-04-01,2017
+Halmstads BK,Östersunds FK,1,0,5223,Jonas Eriksson (Sigtuna),Örjans vall,2017-04-01,2017
+GIF Sundsvall,AFC Eskilstuna,3,1,3549,Glenn Nyberg (Borlänge),Idrottsparken,2017-04-02,2017
+AIK,BK Häcken,0,0,26812,Andreas Ekberg (Bjärred),Friends Arena,2017-04-02,2017
+IFK Norrköping,Hammarby IF,2,1,14533,Kristoffer Karlsson (Höganäs),Östgötaporten,2017-04-02,2017
+Kalmar FF,IF Elfsborg,1,5,7223,Markus Strömbergsson (Gävle),Guldfågeln Arena,2017-04-03,2017
+Djurgårdens IF,IK Sirius,0,2,26648,Mohammed Al-Hakim (Västerås),Tele2 Arena,2017-04-03,2017
+Örebro SK,Jönköpings Södra,2,1,7073,Bojan Pandzic (Göteborg),Behrn Arena,2017-04-03,2017
+AFC Eskilstuna,Örebro SK,2,2,4611,Mohammed Al-Hakim (Västerås),Tunavallen,2017-04-08,2017
+Hammarby IF,Kalmar FF,1,1,30671,Kaspar Sjöberg (Malmö),Tele2 Arena,2017-04-09,2017
+Östersunds FK,IFK Norrköping,1,0,4644,Stefan Johanesson (Stockholm),Jämtkraft Arena,2017-04-09,2017
+IK Sirius,IFK Göteborg,0,2,7248,Andreas Ekberg (Bjärred),Studenternas IP,2017-04-09,2017
+Jönköpings Södra,Halmstads BK,2,2,4214,Magnus Lindgren (Göteborg),Stadsparksvallen,2017-04-09,2017
+BK Häcken,Djurgårdens IF,0,0,5541,Glenn Nyberg (Borlänge),Bravida Arena,2017-04-09,2017
+IF Elfsborg,AIK,1,2,9335,Johan Hamlin (Bro),Borås Arena,2017-04-10,2017
+Malmö FF,GIF Sundsvall,2,0,18378,Patrik Eriksson (Gävle),Swedbank Stadion,2017-04-11,2017
+Halmstads BK,Malmö FF,0,3,8297,Glenn Nyberg (Borlänge),Örjans vall,2017-04-16,2017
+Örebro SK,Östersunds FK,2,1,5947,Bojan Pandzic (Göteborg),Behrn Arena,2017-04-16,2017
+GIF Sundsvall,BK Häcken,1,2,3055,Kristoffer Karlsson (Höganäs),Idrottsparken,2017-04-16,2017
+Djurgårdens IF,IF Elfsborg,3,0,11435,Andreas Ekberg (Bjärred),Tele2 Arena,2017-04-16,2017
+Kalmar FF,Jönköpings Södra,1,3,4698,Stefan Johannesson (Stockholm),Guldfågeln Arena,2017-04-17,2017
+AIK,Hammarby IF,1,2,32318,Jonas Eriksson (Sigtuna),Friends Arena,2017-04-17,2017
+IFK Norrköping,IK Sirius,0,2,7083,Kaspar Sjöberg (Malmö),Östgötaporten,2017-04-17,2017
+IFK Göteborg,AFC Eskilstuna,1,1,10116,Patrik Eriksson (Gävle),Gamla Ullevi,2017-04-17,2017
+IF Elfsborg,Örebro SK,3,0,4773,Kristoffer Karlsson (Höganäs),Borås Arena,2017-04-20,2017
+Jönköpings Södra,AIK,2,1,5191,Andreas Ekberg (Bjärred),Stadsparksvallen,2017-04-22,2017
+Hammarby IF,GIF Sundsvall,0,0,20557,Magnus Lindgren (Göteborg),Tele2 Arena,2017-04-23,2017
+BK Häcken,IFK Norrköping,1,2,2593,Mohammed Al-Hakim (Västerås),Bravida Arena,2017-04-23,2017
+AFC Eskilstuna,Halmstads BK,0,0,2086,Bojan Pandzic (Göteborg),Tunavallen,2017-04-23,2017
+Östersunds FK,IFK Göteborg,1,1,4317,Glenn Nyberg (Borlänge),Jämtkraft Arena,2017-04-23,2017
+IK Sirius,Kalmar FF,3,0,1071,Markus Strömbergsson (Gävle),Gavlevallen[b],2017-04-24,2017
+Malmö FF,Djurgårdens IF,3,2,19074,Jonas Eriksson (Sigtuna),Swedbank Stadion,2017-04-24,2017
+AFC Eskilstuna,Östersunds FK,1,3,1840,Magnus Lindgren (Göteborg),Tunavallen,2017-04-26,2017
+GIF Sundsvall,IF Elfsborg,1,1,3031,Kaspar Sjöberg (Malmö),Idrottsparken,2017-04-26,2017
+IFK Göteborg,Hammarby IF,1,1,12149,Stefan Johannesson (Stockholm),Gamla Ullevi,2017-04-26,2017
+Örebro SK,BK Häcken,0,0,4823,Patrik Eriksson (Gävle),Behrn Arena,2017-04-26,2017
+Halmstads BK,Djurgårdens IF,0,1,4690,Johan Hamlin (Bro),Örjans vall,2017-04-27,2017
+IFK Norrköping,Jönköpings Södra,3,0,6214,Jonas Eriksson (Sigtuna),Östgötaporten,2017-04-27,2017
+Kalmar FF,Malmö FF,0,0,5887,Bojan Pandzic (Göteborg),Guldfågeln Arena,2017-04-27,2017
+AIK,IK Sirius,1,0,13517,Mohammed Al-Hakim (Västerås),Friends Arena,2017-04-27,2017
+Hammarby IF,AFC Eskilstuna,4,0,20741,Kaspar Sjöberg (Malmö),Tele2 Arena,2017-04-29,2017
+AIK,GIF Sundsvall,0,0,11927,Johan Hamlin (Bro),Friends Arena,2017-04-30,2017
+Malmö FF,Örebro SK,2,1,17846,Glenn Nyberg (Borlänge),Swedbank Stadion,2017-05-01,2017
+Kalmar FF,Halmstads BK,2,0,4840,Andreas Ekberg (Bjärred),Guldfågeln Arena,2017-05-01,2017
+IK Sirius,Jönköpings Södra,1,1,4928,Kristoffer Karlssonn (Höganäs),Studenternas IP,2017-05-01,2017
+Djurgårdens IF,IFK Norrköping,3,3,17104,Stefan Johannesson (Stockholm),Tele2 Arena,2017-05-01,2017
+BK Häcken,IFK Göteborg,4,0,5676,Markus Strömbergsson (Gävle),Bravida Arena,2017-05-02,2017
+IF Elfsborg,Östersunds FK,4,4,5629,Patrik Eriksson (Gävle),Borås Arena,2017-05-02,2017
+BK Häcken,IK Sirius,2,2,2336,Jonas Eriksson (Sigtuna),Bravida Arena,2017-05-05,2017
+Halmstads BK,AIK,0,1,5438,Kristoffer Karlsson (Höganäs),Örjans vall,2017-05-06,2017
+Östersunds FK,Hammarby IF,2,1,6027,Bojan Pandzic (Borlänge),Jämtkraft Arena,2017-05-07,2017
+IFK Göteborg,Kalmar FF,3,0,9282,Johan Hamlin (Bro),Gamla Ullevi,2017-05-07,2017
+Örebro SK,Djurgårdens IF,0,4,9271,Magnus Lindgren (Göteborg),Behrn Arena,2017-05-07,2017
+Jönköpings Södra,AFC Eskilstuna,1,0,3066,Robert Daradic (Helsingborg),Stadsparksvallen,2017-05-07,2017
+IFK Norrköping,GIF Sundsvall,0,0,6110,Markus Strömbergsson (Gävle),Östgötaporten,2017-05-08,2017
+IF Elfsborg,Malmö FF,1,2,8452,Stefan Johannesson (Stockholm),Borås Arena,2017-05-08,2017
+AFC Eskilstuna,IFK Norrköping,1,2,3565,Glenn Nyberg (Borlänge),Tunavallen,2017-05-12,2017
+AIK,Örebro SK,1,0,13236,Kaspar Sjöberg (Malmö),Friends Arena,2017-05-13,2017
+Kalmar FF,BK Häcken,0,1,4738,Kristoffer Karlsson (Höganäs),Guldfågeln Arena,2017-05-13,2017
+Halmstads BK,Hammarby IF,1,2,5201,Patrik Eriksson (Gävle),Örjans vall,2017-05-14,2017
+GIF Sundsvall,Jönköpings Södra,0,0,4613,Martin Strömbergsson (Gävle),Idrottsparken,2017-05-14,2017
+Malmö FF,Östersunds FK,2,1,19887,Magnus Lindgren (Göteborg),Swedbank Stadion,2017-05-14,2017
+IK Sirius,IF Elfsborg,4,1,4482,Bojan Pandzic (Göteborg),Studenternas IP,2017-05-14,2017
+Djurgårdens IF,IFK Göteborg,1,0,16299,Andreas Ekberg (Bjärred),Tele2 Arena,2017-05-15,2017
+IFK Norrköping,Kalmar FF,2,0,7452,Kristoffer Karlsson (Höganäs),Östgötaporten,2017-05-16,2017
+Örebro SK,GIF Sundsvall,0,2,5144,Bojan Pandzic (Göteborg),Behrn Arena,2017-05-17,2017
+Östersunds FK,IK Sirius,0,0,4758,Glenn Nyberg (Borlänge),Jämtkraft Arena,2017-05-17,2017
+Hammarby IF,Malmö FF,1,1,22456,Johan Hamlin (Bro),Tele2 Arena,2017-05-17,2017
+BK Häcken,Halmstads BK,2,1,2238,Johan Krantz (Uppsala),Bravida Arena,2017-05-17,2017
+Jönköpings Södra,Djurgårdens IF,1,1,5175,Patrik Eriksson (Gävle),Stadsparksvallen,2017-05-18,2017
+IF Elfsborg,AFC Eskilstuna,2,1,4886,Magnus Lindgren (Göteborg),Borås Arena,2017-05-18,2017
+IFK Göteborg,AIK,2,1,16187,Mohammed Al-Hakim (Västerås),Gamla Ullevi,2017-08-10,2017
+Östersunds FK,Kalmar FF,2,1,4465,Andreas Ekberg (Bjärred),Jämtkraft Arena,2017-05-20,2017
+Halmstads BK,Örebro SK,0,0,3162,Martin Strömbergsson (Gävle),Örjans vall,2017-05-20,2017
+AFC Eskilstuna,BK Häcken,0,0,1895,Markus Strömbergsson (Gävle),Tunavallen,2017-05-21,2017
+IK Sirius,Hammarby IF,1,1,7124,Magnus Lindgren (Göteborg),Studenternas IP,2017-05-21,2017
+Malmö FF,IFK Norrköping,1,2,20145,Bojan Pandzic (Göteborg),Swedbank Stadion,2017-05-21,2017
+GIF Sundsvall,IFK Göteborg,0,4,5046,Kristoffer Karlsson (Höganäs),Idrottsparken,2017-05-22,2017
+IF Elfsborg,Jönköpings Södra,3,0,5965,Johan Hamlin (Bro),Borås Arena,2017-05-22,2017
+Djurgårdens IF,AIK,0,1,25754,Mohammed Al-Hakim (Västerås),Tele2 Arena,2017-05-22,2017
+Kalmar FF,GIF Sundsvall,3,0,4085,Patrik Eriksson (Gävle),Guldfågeln Arena,2017-05-27,2017
+Djurgårdens IF,AFC Eskilstuna,4,1,10255,Bojan Pandzic (Göteborg),Tele2 Arena,2017-05-27,2017
+IFK Norrköping,Halmstads BK,3,2,9105,Markus Strömbergsson (Gävle),Östgötaporten,2017-05-27,2017
+Hammarby IF,Jönköpings Södra,2,2,20386,Kristoffer Karlsson (Höganäs),Tele2 Arena,2017-05-28,2017
+IFK Göteborg,IF Elfsborg,1,1,12837,Martin Strömbergsson (Gävle),Gamla Ullevi,2017-05-28,2017
+BK Häcken,Östersunds FK,0,1,2749,Kaspar Sjöberg (Malmö),Bravida Arena,2017-05-29,2017
+AIK,Malmö FF,0,1,19570,Glenn Nyberg (Borlänge),Friends Arena,2017-05-29,2017
+Örebro SK,IK Sirius,2,1,5622,Stefan Johannesson (Stockholm),Behrn Arena,2017-05-29,2017
+IF Elfsborg,BK Häcken,2,0,6446,Glenn Nyberg (Borlänge),Borås Arena,2017-06-02,2017
+Östersunds FK,GIF Sundsvall,3,1,7821,Magnus Lindgren (Göteborg),Jämtkraft Arena,2017-06-03,2017
+Kalmar FF,Örebro SK,0,1,4699,Kaspar Sjöberg (Malmö),Guldfågeln Arena,2017-06-03,2017
+Jönköpings Södra,Malmö FF,1,2,5565,Patrik Eriksson (Gävle),Stadsparksvallen,2017-06-03,2017
+AFC Eskilstuna,AIK,1,3,7047,Johan Hamlin (Bro),Tunavallen,2017-06-04,2017
+Hammarby IF,Djurgårdens IF,3,1,29374,Andreas Ekberg (Bjärred),Tele2 Arena,2017-06-04,2017
+IK Sirius,Halmstads BK,2,1,4561,Robert Daradic (Helsingborg),Studenternas IP,2017-06-04,2017
+IFK Norrköping,IFK Göteborg,2,0,10233,Mohammed Al-Hakim (Västerås),Östgötaporten,2017-06-04,2017
+GIF Sundsvall,IK Sirius,1,2,3862,Glenn Nyberg (Borlänge),Idrottsparken,2017-07-01,2017
+Malmö FF,AFC Eskilstuna,3,2,14482,Bojan Pandzic (Göteborg),Swedbank Stadion,2017-07-01,2017
+Halmstads BK,IF Elfsborg,1,1,4852,Johan Hamlin (Bro),Örjans vall,2017-07-01,2017
+Jönköpings Södra,IFK Göteborg,0,2,5627,Mohammed Al-Hakim (Västerås),Stadsparksvallen,2017-07-02,2017
+AIK,Östersunds FK,2,2,15121,Stefan Johannesson (Stockholm),Friends Arena,2017-07-02,2017
+Örebro SK,IFK Norrköping,4,2,8954,Andreas Ekberg (Bjärred),Behrn Arena,2017-07-02,2017
+BK Häcken,Hammarby IF,2,0,4009,Jonas Eriksson (Sigtuna),Bravida Arena,2017-07-03,2017
+Djurgårdens IF,Kalmar FF,4,1,11730,Kristoffer Karlsson (Höganäs),Tele2 Arena,2017-07-03,2017
+IK Sirius,AFC Eskilstuna,1,0,4137,Kristoffer Karlsson (Höganäs),Studenternas IP,2017-07-08,2017
+Hammarby IF,Örebro SK,3,1,20337,Stefan Johannesson (Stockholm),Tele2 Arena,2017-07-08,2017
+BK Häcken,Malmö FF,0,1,4504,Johan Hamlin (Bro),Bravida Arena,2017-07-08,2017
+IFK Norrköping,IF Elfsborg,1,3,9325,Mohammed Al-Hakim (Västerås),Östgötaporten,2017-07-09,2017
+Kalmar FF,AIK,0,1,10318,Magnus Lindgren (Göteborg),Guldfågeln Arena,2017-07-09,2017
+Östersunds FK,Jönköpings Södra,1,1,4893,Kaspar Sjöberg (Malmö),Jämtkraft Arena,2017-07-09,2017
+IFK Göteborg,Halmstads BK,1,1,11328,Patrik Eriksson (Gävle),Gamla Ullevi,2017-07-10,2017
+Djurgårdens IF,GIF Sundsvall,2,1,12439,Jonas Eriksson (Sigtuna),Tele2 Arena,2017-07-10,2017
+AFC Eskilstuna,Kalmar FF,2,1,2376,Kaspar Sjöberg (Malmö),Tunavallen,2017-07-15,2017
+GIF Sundsvall,Halmstads BK,1,0,3647,Magnus Lindgren (Göteborg),Idrottsparken,2017-07-15,2017
+Malmö FF,IK Sirius,3,3,15501,Stefan Johannesson (Stockholm),Swedbank Stadion,2017-07-15,2017
+Örebro SK,IFK Göteborg,4,2,6049,Bojan Pandzic (Göteborg),Behrn Arena,2017-07-16,2017
+Östersunds FK,Djurgårdens IF,2,1,5647,Andreas Ekberg (Bjärred),Jämtkraft Arena,2017-07-16,2017
+AIK,IFK Norrköping,1,0,16273,Jonas Eriksson (Sigtuna),Friends Arena,2017-07-16,2017
+IF Elfsborg,Hammarby IF,3,0,11092,Mohammed Al-Hakim (Västerås),Borås Arena,2017-07-17,2017
+Jönköpings Södra,BK Häcken,0,1,3491,Glenn Nyberg (Borlänge),Stadsparksvallen,2017-07-17,2017
+IFK Norrköping,AIK,0,0,12303,Stefan Johannesson (Stockholm),Östgötaporten,2017-06-01,2017
+Halmstads BK,GIF Sundsvall,2,2,4206,Jonas Eriksson (Sigtuna),Örjans vall,2017-07-22,2017
+Malmö FF,Jönköpings Södra,2,0,15049,Mohammed Al-Hakim (Västerås),Swedbank Stadion,2017-07-22,2017
+IK Sirius,BK Häcken,2,2,5324,Johan Hamlin (Bro),Studenternas IP,2017-07-22,2017
+Djurgårdens IF,Östersunds FK,3,0,11762,Magnus Lindgren (Göteborg),Tele2 Arena,2017-07-23,2017
+IFK Göteborg,Örebro SK,2,2,10330,Kaspar Sjöberg (Malmö),Gamla Ullevi,2017-07-23,2017
+Kalmar FF,AFC Eskilstuna,2,0,6327,Patrik Eriksson (Gävle),Guldfågeln Arena,2017-07-23,2017
+Hammarby IF,IF Elfsborg,2,1,20420,Bojan Pandzic (Göteborg),Tele2 Arena,2017-07-24,2017
+Jönköpings Södra,Hammarby IF,1,0,5914,Stefan Johannesson (Stockholm),Stadsparksvallen,2017-07-29,2017
+IF Elfsborg,IK Sirius,0,2,5947,Kaspar Sjöberg (Malmö),Borås Arena,2017-07-29,2017
+GIF Sundsvall,Malmö FF,0,1,4193,Glenn Nyberg (Borlänge),Idrottsparken,2017-07-29,2017
+Östersunds FK,Halmstads BK,0,0,5589,Kristoffer Karlsson (Höganäs),Jämtkraft Arena,2017-07-30,2017
+IFK Göteborg,IFK Norrköping,4,1,11347,Andreas Ekberg (Bjärred),Gamla Ullevi,2017-07-30,2017
+AIK,Kalmar FF,0,1,14337,Mohammed Al-Hakim (Västerås),Friends Arena,2017-07-30,2017
+AFC Eskilstuna,Djurgårdens IF,1,2,7500,Johan Krantz (Uppsala),Tunavallen,2017-07-31,2017
+BK Häcken,Örebro SK,1,1,1989,Patrik Eriksson (Gävle),Bravida Arena,2017-07-31,2017
+Halmstads BK,Jönköpings Södra,6,1,4464,Kaspar Sjöberg (Malmö),Örjans vall,2017-08-05,2017
+Örebro SK,IF Elfsborg,2,2,6223,Andreas Ekberg (Bjärred),Behrn Arena,2017-08-05,2017
+Hammarby IF,BK Häcken,1,2,18474,Glenn Nyberg (Borlänge),Tele2 Arena,2017-08-06,2017
+GIF Sundsvall,Östersunds FK,1,1,6528,Bojan Pandzic (Göteborg),Idrottsparken,2017-08-06,2017
+Kalmar FF,IFK Göteborg,1,0,9330,Patrik Eriksson (Gävle),Guldfågeln Arena,2017-08-06,2017
+IK Sirius,AIK,1,4,6748,Stefan Johannesson (Stockholm),Studenternas IP,2017-08-06,2017
+IFK Norrköping,AFC Eskilstuna,1,0,6662,Kristoffer Karlsson (Höganäs),Östgötaporten,2017-08-07,2017
+Djurgårdens IF,Malmö FF,0,1,22208,Mohammed Al-Hakim (Västerås),Tele2 Arena,2017-08-07,2017
+Malmö FF,Kalmar FF,6,0,20202,Andreas Ekberg (Bjärred),Swedbank Stadion,2017-08-11,2017
+Halmstads BK,IK Sirius,0,3,4127,Magnus Lindgren (Göteborg),Örjans vall,2017-08-12,2017
+Hammarby IF,Östersunds FK,2,2,19870,Kaspar Sjöberg (Malmö),Tele2 Arena,2017-08-13,2017
+AIK,AFC Eskilstuna,1,1,12087,Jonas Eriksson (Sigtuna),Friends Arena,2017-08-13,2017
+IFK Norrköping,Djurgårdens IF,0,1,11620,Bojan Pandzic (Göteborg),Östgötaporten,2017-08-13,2017
+Jönköpings Södra,Örebro SK,1,2,3152,Glenn Nyberg (Borlänge),Stadsparksvallen,2017-08-13,2017
+BK Häcken,GIF Sundsvall,2,0,2013,Kristoffer Karlsson (Höganäs),Bravida Arena,2017-08-14,2017
+IF Elfsborg,IFK Göteborg,1,2,11979,Stefan Johannesson (Stockholm),Borås Arena,2017-08-14,2017
+Jönköpings Södra,IF Elfsborg,2,2,3773,Glenn Nyberg (Borlänge),Stadsparksvallen,2017-08-18,2017
+AFC Eskilstuna,Malmö FF,3,1,3115,Stefan Johannesson (Stockholm),Tunavallen,2017-08-19,2017
+Östersunds FK,AIK,0,3,5779,Bojan Pandzic (Göteborg),Jämtkraft Arena,2017-08-20,2017
+Djurgårdens IF,Halmstads BK,2,1,13093,Kristoffer Karlsson (Höganäs),Tele2 Arena,2017-08-20,2017
+IK Sirius,IFK Norrköping,0,1,6769,Jonas Eriksson (Sigtuna),Studenternas IP,2017-08-20,2017
+IFK Göteborg,BK Häcken,1,1,13443,Mohammed Al-Hakim (Västerås),Gamla Ullevi,2017-08-20,2017
+GIF Sundsvall,Kalmar FF,1,3,3818,Glenn Nyberg (Borlänge),Idrottsparken,2017-08-21,2017
+Örebro SK,Hammarby IF,0,3,8407,Patrik Eriksson (Gävle),Behrn Arena,2017-08-21,2017
+AFC Eskilstuna,Hammarby IF,0,0,7500,Kristoffer Karlsson (Höganäs),Tunavallen,2017-08-26,2017
+IFK Norrköping,Östersunds FK,0,2,7825,Glenn Nyberg (Borlänge),Östgötaporten,2017-08-27,2017
+AIK,Djurgårdens IF,1,1,33157,Stefan Johannesson (Stockholm),Friends Arena,2017-08-27,2017
+BK Häcken,Jönköpings Södra,3,1,2180,Kaspar Sjöberg (Malmö),Bravida Arena,2017-08-27,2017
+Kalmar FF,IK Sirius,4,2,6272,Mohammed Al-Hakim (Västerås),Guldfågeln Arena,2017-08-27,2017
+GIF Sundsvall,Örebro SK,2,1,3068,Magnus Lindgren (Göteborg),Idrottsparken,2017-08-27,2017
+IF Elfsborg,Halmstads BK,1,0,5206,Jonas Eriksson (Sigtuna),Borås Arena,2017-08-27,2017
+Malmö FF,IFK Göteborg,2,2,21354,Andreas Ekberg (Bjärred),Swedbank Stadion,2017-08-27,2017
+Östersunds FK,AFC Eskilstuna,3,0,4030,Johan Hamlin (Bro),Jämtkraft Arena,2017-09-09,2017
+Halmstads BK,BK Häcken,0,3,3266,Kristoffer Karlsson (Höganäs),Örjans vall,2017-09-10,2017
+Hammarby IF,AIK,1,1,29306,Jonas Eriksson (Sigtuna),Friends Arena,2017-09-10,2017
+IF Elfsborg,Kalmar FF,2,2,5466,Magnus Lindgren (Göteborg),Borås Arena,2017-09-10,2017
+Örebro SK,Malmö FF,2,1,7224,Mohammed Al-Hakim (Västerås),Behrn Arena,2017-09-10,2017
+IK Sirius,GIF Sundsvall,0,1,5024,Glenn Nyberg (Borlänge),Studenternas IP,2017-09-10,2017
+Jönköpings Södra,IFK Norrköping,1,2,3362,Stefan Johannesson (Stockholm),Stadsparksvallen,2017-09-10,2017
+IFK Göteborg,Djurgårdens IF,1,3,12350,Bojan Pandzic (Göteborg),Gamla Ullevi,2017-09-11,2017
+Kalmar FF,IFK Norrköping,1,1,5769,Bojan Pandzic (Göteborg),Guldfågeln Arena,2017-09-15,2017
+IFK Göteborg,Jönköpings Södra,1,1,9142,Kristoffer Karlsson (Höganäs),Gamla Ullevi,2017-09-16,2017
+BK Häcken,IF Elfsborg,3,0,1893,Kaspar Sjöberg (Malmö),Bravida Arena,2017-09-16,2017
+Djurgårdens IF,Örebro SK,4,1,14039,Jonas Eriksson (Sigtuna),Tele2 Arena,2017-09-16,2017
+AIK,Halmstads BK,4,1,10342,Magnus Lindgren (Göteborg),Friends Arena,2017-09-17,2017
+IK Sirius,Östersunds FK,0,5,5112,Patrik Eriksson (Gävle),Studenternas IP,2017-09-17,2017
+Malmö FF,Hammarby IF,4,0,18830,Johan Hamlin (Bro),Swedbank Stadion,2017-09-17,2017
+AFC Eskilstuna,GIF Sundsvall,1,2,4305,Mohammed Al-Hakim (Västerås),Tunavallen,2017-09-18,2017
+IFK Norrköping,BK Häcken,4,1,6377,Kristoffer Karlsson (Höganäs),Östgötaporten,2017-09-19,2017
+IF Elfsborg,Djurgårdens IF,2,2,7423,Glenn Nyberg (Borlänge),Borås Arena,2017-09-19,2017
+Halmstads BK,Kalmar FF,1,1,3084,Magnus Lindgren (Göteborg),Örjans vall,2017-09-20,2017
+Östersunds FK,Malmö FF,2,2,6157,Stefan Johannesson (Stockholm),Jämtkraft Arena,2017-09-20,2017
+Jönköpings Södra,IK Sirius,3,1,2672,Kaspar Sjöberg (Malmö),Stadsparksvallen,2017-09-20,2017
+Hammarby IF,IFK Göteborg,2,1,20650,Mohammed Al-Hakim (Västerås),Tele2 Arena,2017-09-20,2017
+Örebro SK,AFC Eskilstuna,2,3,4035,Johan Krantz (Uppsala),Behrn Arena,2017-09-21,2017
+GIF Sundsvall,AIK,0,0,4052,Patrik Eriksson (Gävle),Idrottsparken,2017-09-21,2017
+Halmstads BK,IFK Norrköping,2,1,5398,Jonas Eriksson (Sigtuna),Örjans vall,2017-09-23,2017
+Kalmar FF,Östersunds FK,2,1,4602,Kaspar Sjöberg (Malmö),Guldfågeln Arena,2017-09-24,2017
+Djurgårdens IF,Hammarby IF,1,1,24174,Bojan Pandzic (Göteborg),Tele2 Arena,2017-09-24,2017
+Jönköpings Södra,GIF Sundsvall,2,2,3869,Mohammed Al-Hakim (Västerås),Stadsparksvallen,2017-09-24,2017
+BK Häcken,AIK,1,6,3578,Stefan Johannesson (Stockholm),Bravida Arena,2017-09-24,2017
+AFC Eskilstuna,IFK Göteborg,1,0,4157,Kristoffer Karlsson (Höganäs),Tunavallen,2017-09-25,2017
+IK Sirius,Örebro SK,3,4,4186,Magnus Lindgren (Göteborg),Studenternas IP,2017-09-25,2017
+Malmö FF,IF Elfsborg,6,0,16212,Andreas Ekberg (Bjärred),Swedbank Stadion,2017-09-25,2017
+IFK Göteborg,IK Sirius,4,0,7814,Glenn Nyberg (Borlänge),Gamla Ullevi,2017-09-29,2017
+AFC Eskilstuna,Jönköpings Södra,1,1,3165,Jonas Eriksson (Sigtuna),Tunavallen,2017-09-30,2017
+Östersunds FK,BK Häcken,0,0,4769,Johan Hamlin (Bro),Jämtkraft Arena,2017-10-01,2017
+GIF Sundsvall,Djurgårdens IF,0,5,5280,Magnus Lindgren (Göteborg),Idrottsparken,2017-10-01,2017
+Malmö FF,Halmstads BK,2,0,18189,Mohammed Al-Hakim (Västerås),Swedbank Stadion,2017-10-01,2017
+Hammarby IF,IFK Norrköping,0,2,21337,Stefan Johannesson (Stockholm),Tele2 Arena,2017-10-01,2017
+AIK,IF Elfsborg,5,2,12282,Kaspar Sjöberg (Malmö),Friends Arena,2017-10-01,2017
+Örebro SK,Kalmar FF,1,0,5176,Patrik Eriksson (Gävle),Behrn Arena,2017-10-01,2017
+Halmstads BK,IFK Göteborg,1,2,4307,Johan Hamlin (Bro),Örjans vall,2017-10-14,2017
+Östersunds FK,Örebro SK,3,0,5002,Kristoffer Karlsson (Höganäs),Jämtkraft Arena,2017-10-14,2017
+BK Häcken,AFC Eskilstuna,3,0,1502,Patrik Eriksson (Gävle),Bravida Arena,2017-10-14,2017
+AIK,Jönköpings Södra,2,0,16257,Andreas Ekberg (Bjärred),Friends Arena,2017-10-15,2017
+IK Sirius,Djurgårdens IF,2,0,6492,Stefan Johannesson (Stockholm),Studenternas IP,2017-10-15,2017
+IF Elfsborg,GIF Sundsvall,2,1,5925,Bojan Pandzic (Göteborg),Borås Arena,2017-10-15,2017
+IFK Norrköping,Malmö FF,1,3,13769,Glenn Nyberg (Borlänge),Östgötaporten,2017-10-16,2017
+Kalmar FF,Hammarby IF,2,0,6514,Mohammed Al-Hakim (Västerås),Guldfågeln Arena,2017-10-16,2017
+Örebro SK,Halmstads BK,0,1,3719,Kapsar Sjöberg (Malmö),Behrn Arena,2017-10-20,2017
+AFC Eskilstuna,IF Elfsborg,2,3,2177,Mohammed Al-Hakim (Västerås),Tunavallen,2017-10-21,2017
+GIF Sundsvall,IFK Norrköping,2,2,3528,Johan Hamlin (Bro),Idrottsparken,2017-10-22,2017
+IFK Göteborg,Östersunds FK,0,1,9263,Bojan Pandzic (Göteborg),Gamla Ullevi,2017-10-22,2017
+Djurgårdens IF,BK Häcken,1,1,14181,Jonas Eriksson (Sigtuna),Tele2 Arena,2017-10-22,2017
+Jönköpings Södra,Kalmar FF,2,0,4563,Magnus Lindgren (Göteborg),Stadsparksvallen,2017-10-23,2017
+Hammarby IF,IK Sirius,3,3,17403,Patrik Eriksson (Gävle),Tele2 Arena,2017-10-23,2017
+Malmö FF,AIK,0,0,19535,Stefan Johannesson (Stockholm),Swedbank Stadion,2017-10-23,2017
+Östersunds FK,IF Elfsborg,4,1,5081,Jonas Eriksson (Sigtuna),Jämtkraft Arena,2017-10-28,2017
+Halmstads BK,AFC Eskilstuna,1,1,1478,Andreas Ekberg (Bjärred),Örjans vall,2017-10-28,2017
+IK Sirius,Malmö FF,0,4,4411,Victor Wolf (Stockholm),Studenternas IP,2017-10-29,2017
+GIF Sundsvall,Hammarby IF,1,4,5157,Magnus Lindgren (Göteborg),Idrottsparken,2017-10-29,2017
+BK Häcken,Kalmar FF,2,0,2145,Kaspar Sjöberg (Malmö),Bravida Arena,2017-10-29,2017
+Djurgårdens IF,Jönköpings Södra,0,0,12493,Mohammed Al-Hakim (Västerås),Tele2 Arena,2017-10-29,2017
+IFK Norrköping,Örebro SK,2,0,6447,Patrik Eriksson (Gävle),Östgötaporten,2017-10-30,2017
+AIK,IFK Göteborg,2,1,19870,Kristoffer Karlsson (Höganäs),Friends Arena,2017-10-30,2017
+AFC Eskilstuna,IK Sirius,1,3,887,Bojan Pandzic (Göteborg),Tunavallen,2017-11-05,2017
+Jönköpings Södra,Östersunds FK,0,0,4885,Glenn Nyberg (Borlänge),Stadsparksvallen,2017-11-05,2017
+Hammarby IF,Halmstads BK,1,3,20070,Johan Hamlin (Bro),Tele2 Arena,2017-11-05,2017
+IFK Göteborg,GIF Sundsvall,0,3,6769,Stefan Johannesson (Stockholm),Gamla Ullevi,2017-11-05,2017
+IF Elfsborg,IFK Norrköping,3,3,6516,Kristoffer Karlsson (Höganäs),Borås Arena,2017-11-05,2017
+Malmö FF,BK Häcken,1,2,19123,Mohammed Al-Hakim (Västerås),Swedbank Stadion,2017-11-05,2017
+Kalmar FF,Djurgårdens IF,0,2,8241,Andreas Ekberg (Bjärred),Guldfågeln Arena,2017-11-05,2017
+Örebro SK,AIK,1,2,6572,Jonas Eriksson (Sigtuna),Behrn Arena,2017-11-05,2017
+Hammarby IF,IK Sirius,3,1,30220,Jonas Eriksson,Tele2 Arena,2018-04-01,2018
+BK Häcken,Kalmar FF,1,0,2592,Glenn Nyberg,Bravida Arena,2018-04-01,2018
+Östersunds FK,Djurgårdens IF,0,1,7114,Stefan Johannesson,Jämtkraft Arena,2018-04-01,2018
+Trelleborgs FF,IFK Göteborg,1,3,5509,Kristoffer Karlsson,Vångavallen,2018-04-01,2018
+IFK Norrköping,IF Brommapojkarna,2,1,8451,Mohammed Al-Hakim,Östgötaporten,2018-04-02,2018
+AIK,Dalkurd FF,2,0,30334,Andreas Ekberg,Friends Arena,2018-04-02,2018
+GIF Sundsvall,Örebro SK,0,0,3129,Martin Strömbergsson,Idrottsparken,2018-04-02,2018
+IF Elfsborg,Malmö FF,1,2,11615,Bojan Pandzic,Borås Arena,2018-04-02,2018
+Örebro SK,IFK Norrköping,1,1,8615,Patrik Eriksson,Behrn Arena,2018-04-07,2018
+Kalmar FF,IF Elfsborg,1,0,5668,Kristoffer Karlsson,Guldfågeln Arena,2018-04-08,2018
+Djurgårdens IF,Trelleborgs FF,1,1,17190,Magnus Lindgren,Tele2 Arena,2018-04-08,2018
+Dalkurd FF,Östersunds FK,3,0,1644,Martin Strömbergsson,Gavlevallen,2018-04-08,2018
+Malmö FF,AIK,1,1,20072,Stefan Johannesson,Stadion,2018-04-09,2018
+IF Brommapojkarna,BK Häcken,2,0,1525,Kaspar Sjöberg,Grimsta IP,2018-04-09,2018
+IFK Göteborg,Hammarby IF,1,2,15467,Mohammed Al-Hakim,Gamla Ullevi,2018-04-10,2018
+IK Sirius,GIF Sundsvall,1,3,2602,Glenn Nyberg,Studenternas IP,2018-07-03,2018
+GIF Sundsvall,Malmö FF,2,2,3479,Patrik Eriksson,Idrottsparken,2018-04-13,2018
+Trelleborgs FF,Örebro SK,1,2,2329,Bojan Pandzic,Vångavallen,2018-04-13,2018
+IF Elfsborg,IK Sirius,0,1,4635,Glenn Nyberg,Borås Arena,2018-04-14,2018
+BK Häcken,Dalkurd FF,3,0,3847,Magnus Lindgren,Bravida Arena,2018-04-14,2018
+IFK Norrköping,Kalmar FF,3,1,7632,Kaspar Sjöberg,Östgötaporten,2018-04-15,2018
+AIK,Djurgårdens IF,2,0,30552,Jonas Eriksson,Friends Arena,2018-04-15,2018
+Östersunds FK,IFK Göteborg,2,1,5048,Andreas Ekberg,Jämtkraft Arena,2018-04-15,2018
+Hammarby IF,IF Brommapojkarna,4,0,20630,Stefan Johannesson,Tele2 Arena,2018-04-16,2018
+GIF Sundsvall,Trelleborgs FF,1,0,3129,Victor Wolf,Idrottsparken,2018-04-17,2018
+IK Sirius,BK Häcken,0,0,3230,Bojan Pandzic,Studenternas IP,2018-04-18,2018
+Kalmar FF,Östersunds FK,1,1,4134,Kaspar Sjöberg,Guldfågeln Arena,2018-04-18,2018
+Djurgårdens IF,Malmö FF,3,0,13010,Mohammed Al-Hakim,Tele2 Arena,2018-04-18,2018
+Örebro SK,AIK,1,1,8012,Andreas Ekberg,Behrn Arena,2018-04-18,2018
+Hammarby IF,IFK Norrköping,2,1,21337,Glenn Nyberg,Tele2 Arena,2018-04-19,2018
+IFK Göteborg,Dalkurd FF,1,0,9165,Kristoffer Karlsson,Gamla Ullevi,2018-04-19,2018
+IF Brommapojkarna,IF Elfsborg,0,2,1345,Martin Strömbergsson,Grimsta IP,2018-04-19,2018
+Östersunds FK,Örebro SK,0,2,5143,Jonas Eriksson,Jämtkraft Arena,2018-04-21,2018
+Dalkurd FF,GIF Sundsvall,2,2,1099,Kaspar Sjöberg,Gavlevallen,2018-04-22,2018
+BK Häcken,Hammarby IF,2,2,4410,Patrik Eriksson,Bravida Arena,2018-04-22,2018
+AIK,IFK Göteborg,2,0,19619,Mohammed Al-Hakim,Friends Arena,2018-04-22,2018
+Trelleborgs FF,Kalmar FF,0,1,2189,Bojan Pandzic,Vångavallen,2018-04-22,2018
+IF Elfsborg,Djurgårdens IF,2,2,6540,Glenn Nyberg,Borås Arena,2018-04-23,2018
+IFK Norrköping,IK Sirius,1,0,6125,Stefan Johannesson,Östgötaporten,2018-04-23,2018
+Malmö FF,IF Brommapojkarna,3,1,14745,Magnus Lindgren,Stadion,2018-04-23,2018
+AIK,IK Sirius,2,0,15187,Kristoffer Karlsson,Friends Arena,2018-04-27,2018
+IFK Göteborg,BK Häcken,2,1,12852,Andreas Ekberg,Gamla Ullevi,2018-04-28,2018
+GIF Sundsvall,IF Elfsborg,2,1,3278,Magnus Lindgren,Idrottsparken,2018-04-29,2018
+Djurgårdens IF,Hammarby IF,1,2,24396,Martin Strömbergsson,Tele2 Arena,2018-04-29,2018
+IFK Norrköping,Trelleborgs FF,1,2,6830,Jonas Eriksson,Östgötaporten,2018-04-29,2018
+Kalmar FF,Malmö FF,3,0,7047,Patrik Eriksson,Guldfågeln Arena,2018-04-29,2018
+IF Brommapojkarna,Östersunds FK,0,4,1670,Stefan Johannesson,Grimsta IP,2018-04-30,2018
+Örebro SK,Dalkurd FF,3,2,5529,Bojan Pandzic,Behrn Arena,2018-04-30,2018
+Hammarby IF,GIF Sundsvall,4,3,25092,Jonas Eriksson,Tele2 Arena,2018-05-05,2018
+Östersunds FK,IFK Norrköping,0,2,5581,Martin Strömbergsson,Jämtkraft Arena,2018-05-05,2018
+IF Brommapojkarna,Djurgårdens IF,1,0,4378,Glenn Nyberg,Grimsta IP,2018-05-06,2018
+Dalkurd FF,Kalmar FF,1,2,707,Mohammed Al-Hakim,Gavlevallen,2018-05-06,2018
+IF Elfsborg,AIK,0,0,7071,Kaspar Sjöberg,Borås Arena,2018-05-06,2018
+Trelleborgs FF,BK Häcken,0,3,1427,Kristoffer Karlsson,Vångavallen,2018-05-06,2018
+IK Sirius,Örebro SK,2,4,3534,Bojan Pandzic,Studenternas IP,2018-05-07,2018
+Malmö FF,IFK Göteborg,1,2,17715,Stefan Johannesson,Stadion,2018-05-07,2018
+GIF Sundsvall,IF Brommapojkarna,3,0,3507,Patrik Eriksson,Idrottsparken,2018-05-12,2018
+IFK Göteborg,IFK Norrköping,0,2,11925,Kaspar Sjöberg,Gamla Ullevi,2018-05-13,2018
+Djurgårdens IF,Dalkurd FF,1,0,10432,Magnus Lindgren,Tele2 Arena,2018-05-13,2018
+Örebro SK,Hammarby IF,1,2,12352,Mohammed Al-Hakim,Behrn Arena,2018-05-13,2018
+Trelleborgs FF,Malmö FF,1,0,7043,Glenn Nyberg,Vångavallen,2018-05-13,2018
+BK Häcken,IF Elfsborg,5,0,3555,Andreas Ekberg,Bravida Arena,2018-05-14,2018
+Kalmar FF,IK Sirius,1,0,4386,Robert Daradic,Guldfågeln Arena,2018-05-14,2018
+AIK,Östersunds FK,1,1,16553,Stefan Johannesson,Friends Arena,2018-05-14,2018
+Djurgårdens IF,Örebro SK,2,0,10104,Kristoffer Karlsson,Tele2 Arena,2018-05-17,2018
+IF Brommapojkarna,Kalmar FF,2,1,1363,Magnus Lindgren,Grimsta IP,2018-05-18,2018
+IK Sirius,Trelleborgs FF,1,1,2928,Patrik Eriksson,Studenternas IP,2018-05-19,2018
+GIF Sundsvall,Östersunds FK,2,3,7042,Bojan Pandzic,Idrottsparken,2018-05-19,2018
+IFK Norrköping,Dalkurd FF,4,2,7205,Jonas Eriksson,Östgötaporten,2018-05-19,2018
+Hammarby IF,AIK,0,1,29266,Andreas Ekberg,Tele2 Arena,2018-05-20,2018
+Malmö FF,BK Häcken,2,0,15735,Mohammed Al-Hakim,Stadion,2018-05-20,2018
+IF Elfsborg,IFK Göteborg,1,1,11735,Martin Strömbergsson,Borås Arena,2018-05-21,2018
+Hammarby IF,Malmö FF,3,2,23490,Martin Strömbergsson,Tele2 Arena,2018-05-16,2018
+Örebro SK,Kalmar FF,2,1,5209,Kaspar Sjöberg,Behrn Arena,2018-05-22,2018
+IFK Norrköping,GIF Sundsvall,1,0,8160,Magnus Lindgren,Östgötaporten,2018-05-23,2018
+BK Häcken,AIK,1,1,4259,Glenn Nyberg,Bravida Arena,2018-05-23,2018
+Östersunds FK,IK Sirius,5,2,5287,Kristoffer Karlsson,Jämtkraft Arena,2018-05-23,2018
+Trelleborgs FF,IF Brommapojkarna,2,1,2056,Victor Wolf,Vångavallen,2018-05-24,2018
+IFK Göteborg,Djurgårdens IF,1,3,12268,Mohammed Al-Hakim,Gamla Ullevi,2018-05-24,2018
+Dalkurd FF,IF Elfsborg,1,4,901,Stefan Johannesson,Gavlevallen,2018-05-24,2018
+AIK,IFK Norrköping,3,3,21012,Martin Strömbergsson,Friends Arena,2018-05-26,2018
+Östersunds FK,BK Häcken,2,0,6018,Patrik Eriksson,Jämtkraft Arena,2018-05-26,2018
+GIF Sundsvall,IFK Göteborg,2,0,3596,Kaspar Sjöberg,NP3 Arena,2018-05-27,2018
+Malmö FF,Dalkurd FF,1,1,14099,Kristoffer Karlsson,Stadion,2018-05-27,2018
+Kalmar FF,Hammarby IF,1,1,9313,Robert Daradic,Guldfågeln Arena,2018-05-27,2018
+IK Sirius,Djurgårdens IF,1,5,6192,Jonas Eriksson,Studenternas IP,2018-05-27,2018
+IF Elfsborg,Trelleborgs FF,2,1,4762,Magnus Lindgren,Borås Arena,2018-05-27,2018
+IF Brommapojkarna,Örebro SK,0,0,1523,Andreas Ekberg,Grimsta IP,2018-05-27,2018
+IK Sirius,Malmö FF,0,4,1823,Stefan Johannesson,Studenternas IP,2018-07-07,2018
+BK Häcken,GIF Sundsvall,3,0,1017,Martin Strömbergsson,Bravida Arena,2018-07-07,2018
+Trelleborgs FF,AIK,1,4,2682,Mohammed Al-Hakim,Vångavallen,2018-07-07,2018
+Dalkurd FF,IF Brommapojkarna,3,0,211,Patrik Eriksson,Gavlevallen,2018-07-07,2018
+IFK Göteborg,Kalmar FF,1,3,7298,Kristoffer Karlsson,Gamla Ullevi,2018-07-08,2018
+Djurgårdens IF,IFK Norrköping,1,1,12212,Andreas Ekberg,Tele2 Arena,2018-07-08,2018
+Örebro SK,IF Elfsborg,1,2,5084,Magnus Lindgren,Behrn Arena,2018-07-08,2018
+Hammarby IF,Östersunds FK,1,2,21464,Bojan Pandzic,Tele2 Arena,2018-07-09,2018
+Malmö FF,Östersunds FK,1,1,13211,Glenn Nyberg,Stadion,2018-07-14,2018
+IF Brommapojkarna,IK Sirius,0,1,869,Victor Wolf,Grimsta IP,2018-07-14,2018
+Dalkurd FF,Trelleborgs FF,2,2,588,Magnus Lindgren,Gavlevallen,2018-07-14,2018
+IFK Göteborg,Örebro SK,2,0,6479,Martin Strömbergsson,Gamla Ullevi,2018-07-14,2018
+GIF Sundsvall,AIK,0,1,5177,Patrik Eriksson,NP3 Arena,2018-07-15,2018
+IFK Norrköping,BK Häcken,2,1,7150,Mohammed Al-Hakim,Östgötaporten,2018-07-15,2018
+Kalmar FF,Djurgårdens IF,0,1,8048,Kaspar Sjöberg,Guldfågeln Arena,2018-07-15,2018
+IF Elfsborg,Hammarby IF,0,0,7682,Bojan Pandzic,Borås Arena,2018-07-16,2018
+Örebro SK,Malmö FF,1,2,4045,Andreas Ekberg,Behrn Arena,2018-07-21,2018
+Östersunds FK,Trelleborgs FF,4,1,5724,Kaspar Sjöberg,Jämtkraft Arena,2018-07-21,2018
+Kalmar FF,GIF Sundsvall,0,2,4336,Victor Wolf,Guldfågeln Arena,2018-07-21,2018
+AIK,IF Brommapojkarna,5,1,12781,Kristoffer Karlsson,Friends Arena,2018-07-22,2018
+Djurgårdens IF,BK Häcken,2,1,8705,Glenn Nyberg,Tele2 Arena,2018-07-22,2018
+IK Sirius,IFK Göteborg,3,2,4112,Mohammed Al-Hakim,Studenternas IP,2018-07-22,2018
+Hammarby IF,Dalkurd FF,4,1,19969,Robert Daradic,Tele2 Arena,2018-07-23,2018
+IFK Norrköping,IF Elfsborg,1,0,8853,Patrik Eriksson,Östgötaporten,2018-07-23,2018
+IFK Göteborg,IF Brommapojkarna,3,0,7425,Patrik Eriksson,Gamla Ullevi,2018-07-28,2018
+Östersunds FK,IF Elfsborg,1,0,7289,Magnus Lindgren,Jämtkraft Arena,2018-07-28,2018
+Malmö FF,IFK Norrköping,2,1,15731,Bojan Pandzic,Stadion,2018-07-28,2018
+Dalkurd FF,IK Sirius,1,3,1238,Kaspar Sjöberg,Gavlevallen,2018-07-28,2018
+Djurgårdens IF,GIF Sundsvall,1,1,9898,Mohammed Al-Hakim,Tele2 Arena,2018-07-29,2018
+AIK,Kalmar FF,1,0,13822,Robert Daradic,Friends Arena,2018-07-29,2018
+BK Häcken,Örebro SK,1,1,2237,Kristoffer Karlsson,Bravida Arena,2018-07-29,2018
+Trelleborgs FF,Hammarby IF,1,3,5381,Johan Krantz,Vångavallen,2018-07-30,2018
+IK Sirius,AIK,2,3,6139,Glenn Nyberg,Studenternas IP,2018-05-02,2018
+Malmö FF,Djurgårdens IF,1,0,15728,Andreas Ekberg,Stadion,2018-05-03,2018
+Kalmar FF,IFK Göteborg,2,1,6459,Kristoffer Karlsson,Guldfågeln Arena,2018-08-04,2018
+IF Brommapojkarna,Dalkurd FF,2,1,1054,Granit Maqedonci,Grimsta IP,2018-08-04,2018
+Hammarby IF,Trelleborgs FF,1,0,21834,Mohammed Al-Hakim,Tele2 Arena,2018-08-05,2018
+Örebro SK,BK Häcken,1,2,4597,Patrik Eriksson,Behrn Arena,2018-08-05,2018
+GIF Sundsvall,IFK Norrköping,1,1,4652,Magnus Lindgren,NP3 Arena,2018-08-06,2018
+IF Elfsborg,Östersunds FK,0,2,5402,Glenn Nyberg,Borås Arena,2018-08-06,2018
+IFK Göteborg,IK Sirius,2,3,9357,Glenn Nyberg,Gamla Ullevi,2018-08-10,2018
+Dalkurd FF,Malmö FF,0,1,603,Robert Daradic,Gavlevallen,2018-08-10,2018
+Örebro SK,IF Brommapojkarna,0,1,3104,Kaspar Sjöberg,Behrn Arena,2018-08-11,2018
+BK Häcken,Djurgårdens IF,5,0,3384,Andreas Ekberg,Bravida Arena,2018-08-12,2018
+Östersunds FK,Kalmar FF,2,0,6022,Bojan Pandzic,Jämtkraft Arena,2018-08-12,2018
+AIK,IF Elfsborg,1,0,13537,Martin Strömbergsson,Friends Arena,2018-08-12,2018
+IFK Norrköping,Hammarby IF,0,0,15119,Stefan Johannesson,Östgötaporten,2018-08-13,2018
+Trelleborgs FF,GIF Sundsvall,1,6,1658,Victor Wolf,Vångavallen,2018-08-13,2018
+IK Sirius,Dalkurd FF,2,3,4626,Mohammed Al-Hakim,Studenternas IP,2018-08-17,2018
+Malmö FF,Trelleborgs FF,3,0,14073,Glenn Nyberg,Stadion,2018-08-18,2018
+GIF Sundsvall,BK Häcken,0,2,4589,Kaspar Sjöberg,NP3 Arena,2018-08-19,2018
+IF Elfsborg,IFK Norrköping,0,1,6255,Patrik Eriksson,Borås Arena,2018-08-19,2018
+Djurgårdens IF,Kalmar FF,0,2,9602,Magnus Lindgren,Tele2 Arena,2018-08-19,2018
+IF Brommapojkarna,AIK,0,2,6829,Bojan Pandzic,Grimsta IP,2018-08-19,2018
+Hammarby IF,Örebro SK,2,0,20803,Robert Daradic,Tele2 Arena,2018-08-20,2018
+IFK Göteborg,Östersunds FK,2,1,8114,Stefan Johannesson,Gamla Ullevi,2018-08-20,2018
+BK Häcken,IF Brommapojkarna,6,0,2089,Patrik Eriksson,Bravida Arena,2018-08-26,2018
+Malmö FF,IK Sirius,5,0,11237,Martin Strömbergsson,Stadion,2018-08-26,2018
+Östersunds FK,GIF Sundsvall,1,2,7681,Mohammed Al-Hakim,Jämtkraft Arena,2018-08-26,2018
+AIK,Trelleborgs FF,2,0,13061,Kaspar Sjöberg,Friends Arena,2018-08-26,2018
+Djurgårdens IF,IF Elfsborg,2,2,7608,Stefan Johannesson,Tele2 Arena,2018-08-26,2018
+Dalkurd FF,Hammarby IF,2,3,2685,Magnus Lindgren,Gavlevallen,2018-08-27,2018
+IFK Norrköping,IFK Göteborg,2,1,9541,Bojan Pandzic,Östgötaporten,2018-08-27,2018
+Kalmar FF,Örebro SK,0,1,4146,Kristoffer Karlsson,Guldfågeln Arena,2018-08-27,2018
+Trelleborgs FF,IFK Norrköping,1,1,1626,Granit Maqedonci,Vångavallen,2018-08-31,2018
+AIK,BK Häcken,3,0,17163,Kristoffer Karlsson,Friends Arena,2018-09-01,2018
+Örebro SK,Östersunds FK,2,1,5337,Patrik Eriksson,Behrn Arena,2018-09-01,2018
+Hammarby IF,Djurgårdens IF,1,3,26937,Mohammed Al-Hakim,Tele2 Arena,2018-09-02,2018
+IF Brommapojkarna,Malmö FF,0,3,2674,Bojan Pandzic,Grimsta IP,2018-09-02,2018
+Dalkurd FF,IFK Göteborg,1,1,728,Kaspar Sjöberg,Gavlevallen,2018-09-02,2018
+GIF Sundsvall,IK Sirius,4,0,5328,Johan Hamlin,NP3 Arena,2018-09-02,2018
+IF Elfsborg,Kalmar FF,1,1,4755,Glenn Nyberg,Borås Arena,2018-09-02,2018
+Örebro SK,GIF Sundsvall,2,1,3840,Magnus Lindgren,Behrn Arena,2018-09-15,2018
+Östersunds FK,Malmö FF,2,3,5631,Johan Hamlin,Jämtkraft Arena,2018-09-15,2018
+IFK Norrköping,AIK,2,0,14202,Andreas Ekberg,Östgötaporten,2018-09-16,2018
+IFK Göteborg,IF Elfsborg,2,2,10096,Mohammed Al-Hakim,Gamla Ullevi,2018-09-16,2018
+Djurgårdens IF,IF Brommapojkarna,0,1,9604,Kaspar Sjöberg,Tele2 Arena,2018-09-16,2018
+IK Sirius,Hammarby IF,1,1,6377,Martin Strömbergsson,Studenternas IP,2018-09-17,2018
+BK Häcken,Trelleborgs FF,2,1,2035,Patrik Eriksson,Bravida Arena,2018-09-17,2018
+Kalmar FF,Dalkurd FF,0,0,3942,Stefan Johannesson,Guldfågeln Arena,2018-09-17,2018
+IF Brommapojkarna,GIF Sundsvall,1,3,1525,Johan Hamlin,Grimsta IP,2018-09-21,2018
+IK Sirius,Östersunds FK,0,1,3840,Glenn Nyberg,Studenternas IP,2018-09-22,2018
+IF Elfsborg,Örebro SK,1,0,4659,Victor Wolf,Borås Arena,2018-09-22,2018
+Trelleborgs FF,Djurgårdens IF,0,3,1592,Bojan Pandzic,Vångavallen,2018-09-22,2018
+Dalkurd FF,IFK Norrköping,0,2,495,Kaspar Sjöberg,Gavlevallen,2018-09-22,2018
+AIK,Hammarby IF,1,0,49034,Stefan Johannesson,Friends Arena,2018-09-23,2018
+Malmö FF,Kalmar FF,4,0,15584,Magnus Lindgren,Stadion,2018-09-23,2018
+BK Häcken,IFK Göteborg,4,1,6142,Andreas Ekberg,Bravida Arena,2018-09-24,2018
+Örebro SK,IK Sirius,0,0,3553,Kaspar Sjöberg,Behrn Arena,2018-09-25,2018
+Hammarby IF,IF Elfsborg,0,1,17896,Kristoffer Karlsson,Tele2 Arena,2018-09-26,2018
+GIF Sundsvall,Djurgårdens IF,1,1,4595,Granit Maqedonci,NP3 Arena,2018-09-26,2018
+IFK Norrköping,Malmö FF,3,1,11660,Bojan Pandzic,Östgötaporten,2018-09-26,2018
+Östersunds FK,IF Brommapojkarna,3,1,6022,Robert Daradic,Jämtkraft Arena,2018-09-26,2018
+Trelleborgs FF,Dalkurd FF,0,1,1382,Victor Wolf,Vångavallen,2018-09-26,2018
+IFK Göteborg,AIK,0,2,12104,Martin Strömbergsson,Gamla Ullevi,2018-09-27,2018
+Kalmar FF,BK Häcken,1,2,3683,Glenn Nyberg,Guldfågeln Arena,2018-09-27,2018
+IK Sirius,IFK Norrköping,1,1,3555,Andreas Ekberg,Studenternas IP,2018-09-29,2018
+Dalkurd FF,AIK,0,4,3662,Johan Hamlin,Gavlevallen,2018-09-30,2018
+Kalmar FF,IF Brommapojkarna,1,1,3475,Mohammed Al-Hakim,Guldfågeln Arena,2018-09-30,2018
+Malmö FF,GIF Sundsvall,0,0,12058,Victor Wolf,Stadion,2018-09-30,2018
+Djurgårdens IF,Östersunds FK,0,2,10274,Magnus Lindgren,Tele2 Arena,2018-09-30,2018
+Hammarby IF,IFK Göteborg,3,0,18973,Bojan Pandzic,Tele2 Arena,2018-10-01,2018
+IF Elfsborg,BK Häcken,0,3,5340,Patrik Eriksson,Borås Arena,2018-10-01,2018
+Örebro SK,Trelleborgs FF,4,0,3252,Glenn Nyberg,Behrn Arena,2018-10-01,2018
+Östersunds FK,Dalkurd FF,3,0,5034,Andreas Ekberg,Jämtkraft Arena,2018-10-05,2018
+IK Sirius,IF Elfsborg,4,2,3534,Robert Daradic,Studenternas IP,2018-10-06,2018
+IFK Göteborg,Trelleborgs FF,2,2,7889,Patrik Eriksson,Gamla Ullevi,2018-10-06,2018
+BK Häcken,Malmö FF,1,1,5004,Magnus Lindgren,Bravida Arena,2018-10-07,2018
+IFK Norrköping,Djurgårdens IF,1,1,9433,Kaspar Sjöberg,Östgötaporten,2018-10-07,2018
+AIK,Örebro SK,1,1,21023,Johan Krantz,Friends Arena,2018-10-07,2018
+IF Brommapojkarna,Hammarby IF,2,4,4744,Glenn Nyberg,Grimsta IP,2018-10-07,2018
+GIF Sundsvall,Kalmar FF,2,0,4234,Martin Strömbergsson,NP3 Arena,2018-10-08,2018
+Malmö FF,Hammarby IF,2,1,19125,Kristoffer Karlsson,Stadion,2018-10-20,2018
+Dalkurd FF,Örebro SK,1,0,351,Magnus Lindgren,Gavlevallen,2018-10-20,2018
+BK Häcken,Östersunds FK,2,0,3107,Bojan Pandzic,Bravida Arena,2018-10-21,2018
+Djurgårdens IF,AIK,0,0,21711,Stefan Johannesson,Tele2 Arena,2018-10-21,2018
+IF Elfsborg,GIF Sundsvall,2,0,5128,Kaspar Sjöberg,Borås Arena,2018-10-21,2018
+Kalmar FF,IFK Norrköping,1,2,3989,Glenn Nyberg,Guldfågeln Arena,2018-10-21,2018
+Trelleborgs FF,IK Sirius,1,2,1037,Mohammed Al-Hakim,Vångavallen,2018-10-21,2018
+IF Brommapojkarna,IFK Göteborg,0,2,2308,Andreas Ekberg,Grimsta IP,2018-10-22,2018
+IFK Göteborg,GIF Sundsvall,1,2,6172,Glenn Nyberg,Gamla Ullevi,2018-10-26,2018
+Trelleborgs FF,IF Elfsborg,2,2,802,Andreas Ekberg,Vångavallen,2018-10-26,2018
+Dalkurd FF,BK Häcken,0,5,202,Kaspar Sjöberg,Gavlevallen,2018-10-27,2018
+Hammarby IF,Kalmar FF,0,0,25473,Patrik Eriksson,Tele2 Arena,2018-10-28,2018
+Örebro SK,Djurgårdens IF,1,1,5795,Johan Hamlin,Behrn Arena,2018-10-28,2018
+IK Sirius,IF Brommapojkarna,4,2,4204,Kristoffer Karlsson,Studenternas IP,2018-10-28,2018
+IFK Norrköping,Östersunds FK,4,2,8106,Mohammed Al-Hakim,Östgötaporten,2018-10-28,2018
+AIK,Malmö FF,1,1,31160,Bojan Pandzic,Friends Arena,2018-10-29,2018
+IF Elfsborg,Dalkurd FF,0,0,4483,Stefan Johannesson,Borås Arena,2018-10-30,2018
+GIF Sundsvall,Hammarby IF,2,3,4638,Mohammed Al-Hakim,NP3 Arena,2018-10-31,2018
+BK Häcken,IK Sirius,2,1,2044,Magnus Lindgren,Bravida Arena,2018-10-31,2018
+Kalmar FF,Trelleborgs FF,2,1,2842,Victor Wolf,Guldfågeln Arena,2018-10-31,2018
+Djurgårdens IF,IFK Göteborg,2,0,8751,Kristoffer Karlsson,Tele2 Arena,2018-10-31,2018
+IF Brommapojkarna,IFK Norrköping,0,1,1234,Kaspar Sjöberg,Grimsta IP,2018-10-31,2018
+Malmö FF,Örebro SK,4,0,11618,Patrik Eriksson,Stadion,2018-11-01,2018
+Östersunds FK,AIK,1,2,6531,Martin Strömbergsson,Jämtkraft Arena,2018-11-01,2018
+IFK Norrköping,Örebro SK,3,2,9124,Glenn Nyberg,Östgötaporten,2018-11-04,2018
+IFK Göteborg,Malmö FF,0,3,13073,Martin Strömbergsson,Gamla Ullevi,2018-11-04,2018
+Hammarby IF,BK Häcken,1,0,31810,Mohammed Al-Hakim,Tele2 Arena,2018-11-04,2018
+AIK,GIF Sundsvall,0,0,50128,Andreas Ekberg,Friends Arena,2018-11-04,2018
+Dalkurd FF,Djurgårdens IF,1,2,768,Magnus Lindgren,Gavlevallen,2018-11-05,2018
+IK Sirius,Kalmar FF,1,1,3286,Stefan Johannesson,Studenternas IP,2018-11-05,2018
+IF Elfsborg,IF Brommapojkarna,1,2,4702,Patrik Eriksson,Borås Arena,2018-11-05,2018
+Trelleborgs FF,Östersunds FK,0,1,827,Kaspar Sjöberg,Vångavallen,2018-11-05,2018
+GIF Sundsvall,Dalkurd FF,0,1,4632,Kaspar Sjöberg,NP3 Arena,2018-11-11,2018
+BK Häcken,IFK Norrköping,0,1,6207,Martin Strömbergsson,Bravida Arena,2018-11-11,2018
+Malmö FF,IF Elfsborg,2,0,13091,Magnus Lindgren,Stadion,2018-11-11,2018
+Kalmar FF,AIK,0,1,11991,Kristoffer Karlsson,Guldfågeln Arena,2018-11-11,2018
+Djurgårdens IF,IK Sirius,1,0,11105,Adam Ladebäck,Tele2 Arena,2018-11-11,2018
+Örebro SK,IFK Göteborg,1,3,4129,Johan Hamlin,Behrn Arena,2018-11-11,2018
+Östersunds FK,Hammarby IF,3,3,6183,Glenn Nyberg,Jämtkraft Arena,2018-11-11,2018
+IF Brommapojkarna,Trelleborgs FF,3,0,1567,Mohammed Al-Hakim,Grimsta IP,2018-11-11,2018
+Falkenbergs FF,Örebro SK,1,0,3023,Kaspar Sjöberg,Falcon Alkoholfri Arena,2019-03-31,2019
+Kalmar FF,IK Sirius,0,2,6444,Magnus Lindgren,Guldfågeln Arena,2019-03-31,2019
+AIK,Östersunds FK,0,0,29157,Patrik Eriksson,Friends Arena,2019-03-31,2019
+Helsingborgs IF,IFK Norrköping,3,1,11455,Stefan Johannesson,Olympia,2019-03-31,2019
+AFC Eskilstuna,IFK Göteborg,3,1,3897,Kristoffer Karlsson,Tunavallen,2019-03-31,2019
+IF Elfsborg,Hammarby IF,1,1,8737,Andreas Ekberg,Borås Arena,2019-04-01,2019
+Malmö FF,BK Häcken,1,1,17543,Mohammed Al-Hakim,"Stadion, Malmö",2019-04-01,2019
+Djurgårdens IF,GIF Sundsvall,2,2,20109,Bojan Pandzic,Tele2 Arena,2019-04-01,2019
+GIF Sundsvall,Malmö FF,3,1,4100,Kristoffer Karlsson,NP3 Arena,2019-04-06,2019
+BK Häcken,Helsingborgs IF,2,1,4548,Victor Wolf,Bravida Arena,2019-04-06,2019
+Östersunds FK,Falkenbergs FF,3,2,4088,Magnus Lindgren,Jämtkraft Arena,2019-04-07,2019
+IFK Göteborg,IF Elfsborg,3,0,17222,Kaspar Sjöberg,Ullevi,2019-04-07,2019
+Hammarby IF,Kalmar FF,1,1,31337,Mohammed Al-Hakim,Tele2 Arena,2019-04-07,2019
+Örebro SK,Djurgårdens IF,0,3,7803,Glenn Nyberg,Behrn Arena,2019-04-08,2019
+IFK Norrköping,AIK,0,0,14162,Andreas Ekberg,Östgötaporten,2019-04-08,2019
+IK Sirius,AFC Eskilstuna,3,2,4120,Stefan Johannesson,Studenternas IP,2019-04-08,2019
+AFC Eskilstuna,Örebro SK,1,1,3175,Patrik Eriksson,Tunavallen,2019-04-12,2019
+Falkenbergs FF,BK Häcken,0,3,2798,Glenn Nyberg,Falcon Alkoholfri Arena,2019-04-13,2019
+Kalmar FF,IFK Norrköping,2,2,3781,Kaspar Sjöberg,Guldfågeln Arena,2019-04-13,2019
+IF Elfsborg,GIF Sundsvall,3,1,4358,Victor Wolf,Borås Arena,2019-04-14,2019
+AIK,IK Sirius,2,1,16019,Mohammed Al-Hakim,Friends Arena,2019-04-14,2019
+Malmö FF,Östersunds FK,2,0,14042,Stefan Johannesson,Stadion,2019-04-14,2019
+Helsingborgs IF,Hammarby IF,2,1,9882,Bojan Pandzic,Olympia,2019-04-15,2019
+Djurgårdens IF,IFK Göteborg,2,1,13575,Andreas Ekberg,Tele2 Arena,2019-04-15,2019
+Östersunds FK,IF Elfsborg,1,1,4279,Granit Maqedonci,Jämtkraft Arena,2019-04-19,2019
+Örebro SK,AIK,2,1,11221,Kristoffer Karlsson,Behrn Arena,2019-04-19,2019
+IFK Norrköping,Falkenbergs FF,4,3,7210,Magnus Lindgren,Östgötaporten,2019-04-19,2019
+GIF Sundsvall,Kalmar FF,1,2,4612,Adam Ladebäck,NP3 Arena,2019-04-20,2019
+IK Sirius,Malmö FF,0,1,4292,Glenn Nyberg,Studenternas IP,2019-04-20,2019
+BK Häcken,Djurgårdens IF,0,1,4579,Bojan Pandzic,Bravida Arena,2019-04-21,2019
+Hammarby IF,AFC Eskilstuna,3,1,19445,Martin Strömbergsson,Tele2 Arena,2019-04-21,2019
+IFK Göteborg,Helsingborgs IF,3,1,13340,Kaspar Sjöberg,Ullevi,2019-04-22,2019
+IF Elfsborg,Örebro SK,4,2,4095,Bojan Pandzic,Borås Arena,2019-04-24,2019
+Falkenbergs FF,IK Sirius,0,0,2301,Fredrik Klitte,Falcon Alkoholfri Arena,2019-04-24,2019
+Malmö FF,Hammarby IF,4,1,16065,Kristoffer Karlsson,Stadion,2019-04-24,2019
+AIK,BK Häcken,1,0,11131,Glenn Nyberg,Friends Arena,2019-04-24,2019
+AFC Eskilstuna,Östersunds FK,0,1,2261,Magnus Lindgren,Tunavallen,2019-04-24,2019
+Djurgårdens IF,IFK Norrköping,1,1,11246,Mohammed Al-Hakim,Tele2 Arena,2019-04-25,2019
+Helsingborgs IF,GIF Sundsvall,1,1,6138,Patrik Eriksson,Olympia,2019-04-25,2019
+Kalmar FF,IFK Göteborg,1,1,4716,Victor Wolf,Guldfågeln Arena,2019-04-25,2019
+IK Sirius,IF Elfsborg,2,4,3667,Martin Strömbergsson,Studenternas IP,2019-04-27,2019
+Hammarby IF,Djurgårdens IF,2,1,27554,Andreas Ekberg,Tele2 Arena,2019-04-28,2019
+BK Häcken,AFC Eskilstuna,3,0,2095,Fredrik Hansson,Bravida Arena,2019-04-28,2019
+IFK Norrköping,Malmö FF,1,1,10197,Bojan Pandzic,Östgötaporten,2019-04-28,2019
+IFK Göteborg,AIK,3,0,15311,Kristoffer Karlsson,Ullevi,2019-04-29,2019
+Örebro SK,Kalmar FF,1,1,4277,Patrik Eriksson,Behrn Arena,2019-04-29,2019
+GIF Sundsvall,Falkenbergs FF,3,1,3585,Kaspar Sjöberg,NP3 Arena,2019-04-29,2019
+Östersunds FK,Helsingborgs IF,3,0,4341,Mohammed Al-Hakim,Jämtkraft Arena,2019-04-29,2019
+AIK,AFC Eskilstuna,2,1,12314,Magnus Lindgren,Friends Arena,2019-05-04,2019
+IK Sirius,IFK Göteborg,2,4,4632,Patrik Eriksson,Studenternas IP,2019-05-04,2019
+Falkenbergs FF,Malmö FF,1,2,5252,Mohammed Al-Hakim,Falcon Alkoholfri Arena,2019-05-05,2019
+Kalmar FF,Östersunds FK,1,1,3547,Martin Strömbergsson,Guldfågeln Arena,2019-05-05,2019
+BK Häcken,GIF Sundsvall,1,0,2561,Andreas Ekberg,Bravida Arena,2019-05-05,2019
+Örebro SK,Hammarby IF,2,3,9148,Victor Wolf,Behrn Arena,2019-05-05,2019
+Helsingborgs IF,Djurgårdens IF,1,1,7098,Stefan Johannesson,Olympia,2019-05-06,2019
+IF Elfsborg,IFK Norrköping,0,0,6834,Kristoffer Karlsson,Borås Arena,2019-05-06,2019
+Hammarby IF,IK Sirius,2,0,21905,Kaspar Sjöberg,Tele2 Arena,2019-05-10,2019
+Östersunds FK,BK Häcken,1,1,4904,Stefan Johannesson,Jämtkraft Arena,2019-05-11,2019
+Kalmar FF,Helsingborgs IF,1,0,4837,Andreas Ekberg,Guldfågeln Arena,2019-05-11,2019
+AFC Eskilstuna,Falkenbergs FF,0,0,2823,Granit Maqedonci,Tunavallen,2019-05-11,2019
+GIF Sundsvall,Örebro SK,1,2,3805,Patrik Eriksson,NP3 Arena,2019-05-11,2019
+Djurgårdens IF,AIK,0,2,21127,Bojan Pandzic,Tele2 Arena,2019-05-12,2019
+Malmö FF,IF Elfsborg,4,1,16139,Victor Wolf,Stadion,2019-05-12,2019
+IFK Norrköping,IFK Göteborg,1,2,8752,Glenn Nyberg,Östgötaporten,2019-05-13,2019
+Hammarby IF,Östersunds FK,4,0,20247,Kristoffer Karlsson,Tele2 Arena,2019-05-14,2019
+Helsingborgs IF,AIK,1,3,8538,Stefan Johannesson,Olympia,2019-05-15,2019
+IF Elfsborg,AFC Eskilstuna,1,0,4079,Adam Ladebäck,Borås Arena,2019-05-15,2019
+Falkenbergs FF,Djurgårdens IF,0,3,3228,Patrik Eriksson,Falcon Alkoholfri Arena,2019-05-15,2019
+BK Häcken,Kalmar FF,1,0,2731,Kaspar Sjöberg,Bravida Arena,2019-05-15,2019
+IK Sirius,GIF Sundsvall,1,0,3443,Magnus Lindgren,Studenternas IP,2019-05-15,2019
+Örebro SK,IFK Norrköping,1,2,5152,Mohammed Al-Hakim,Behrn Arena,2019-05-16,2019
+IFK Göteborg,Malmö FF,0,0,17083,Martin Strömbergsson,Gamla Ullevi,2019-05-16,2019
+AFC Eskilstuna,Helsingborgs IF,1,1,1983,Victor Wolf,Tunavallen,2019-05-18,2019
+Malmö FF,Kalmar FF,1,0,16267,Bojan Pandzic,Stadion,2019-05-19,2019
+IK Sirius,BK Häcken,3,4,3047,Adam Ladebäck,Studenternas IP,2019-05-19,2019
+Djurgårdens IF,IF Elfsborg,2,0,10100,Glenn Nyberg,Tele2 Arena,2019-05-19,2019
+IFK Göteborg,Hammarby IF,0,0,14136,Andreas Ekberg,Gamla Ullevi,2019-05-20,2019
+IFK Norrköping,GIF Sundsvall,2,0,6785,Kristoffer Karlsson,Östgötaporten,2019-05-20,2019
+Östersunds FK,Örebro SK,1,3,4120,Kaspar Sjöberg,Jämtkraft Arena,2019-05-20,2019
+AIK,Falkenbergs FF,2,0,14822,Mohammed Al-Hakim,Friends Arena,2019-05-20,2019
+GIF Sundsvall,AIK,1,1,4560,Patrik Eriksson,NP3 Arena,2019-05-24,2019
+BK Häcken,IFK Göteborg,1,2,6316,Mohammed Al-Hakim,Bravida Arena,2019-05-25,2019
+Malmö FF,AFC Eskilstuna,5,0,12545,Andreas Ekberg,Stadion,2019-05-25,2019
+Helsingborgs IF,Falkenbergs FF,1,1,7099,Martin Strömbergsson,Olympia,2019-05-25,2019
+Djurgårdens IF,Östersunds FK,3,1,9609,Victor Wolf,Tele2 Arena,2019-05-26,2019
+Kalmar FF,IF Elfsborg,1,1,3882,Magnus Lindgren,Guldfågeln Arena,2019-05-26,2019
+Hammarby IF,IFK Norrköping,2,2,22654,Bojan Pandzic,Tele2 Arena,2019-05-27,2019
+Örebro SK,IK Sirius,0,2,4276,Glenn Nyberg,Behrn Arena,2019-05-27,2019
+IFK Göteborg,Örebro SK,0,1,13917,Victor Wolf,Gamla Ullevi,2019-06-01,2019
+IK Sirius,Djurgårdens IF,0,2,5663,Kaspar Sjöberg,Studenternas IP,2019-06-01,2019
+Falkenbergs FF,Kalmar FF,0,0,3307,Fredrik Klitte,Falcon Alkoholfri Arena,2019-06-01,2019
+Östersunds FK,GIF Sundsvall,1,1,6071,Martin Strömbergsson,Jämtkraft Arena,2019-06-01,2019
+IF Elfsborg,BK Häcken,0,0,6113,Andreas Ekberg,Borås Arena,2019-06-02,2019
+AIK,Hammarby IF,2,0,32861,Glenn Nyberg,Friends Arena,2019-06-02,2019
+AFC Eskilstuna,IFK Norrköping,0,2,3127,Mohammed Al-Hakim,Tunavallen,2019-06-02,2019
+Helsingborgs IF,Malmö FF,0,1,16127,Bojan Pandzic,Olympia,2019-06-02,2019
+Örebro SK,Helsingborgs IF,0,1,7191,Mohammed Al-Hakim,Behrn Arena,2019-06-28,2019
+Östersunds FK,IFK Göteborg,0,0,5093,Kristoffer Karlsson,Jämtkraft Arena,2019-06-29,2019
+Falkenbergs FF,IF Elfsborg,2,1,4318,Granit Maqedonci,Falcon Alkoholfri Arena,2019-06-29,2019
+GIF Sundsvall,AFC Eskilstuna,0,0,4950,Victor Wolf,NP3 Arena,2019-06-29,2019
+AIK,Malmö FF,0,0,19141,Stefan Johannesson,Friends Arena,2019-06-30,2019
+IFK Norrköping,IK Sirius,0,1,8112,Kaspar Sjöberg,Östgötaporten,2019-06-30,2019
+Djurgårdens IF,Kalmar FF,2,0,12717,Martin Strömbergsson,Tele2 Arena,2019-07-01,2019
+BK Häcken,Hammarby IF,2,0,4897,Glenn Nyberg,Bravida Arena,2019-07-01,2019
+Kalmar FF,AIK,0,1,7139,Kristoffer Karlsson,Guldfågeln Arena,2019-07-06,2019
+IK Sirius,Östersunds FK,1,1,3789,Mohammed Al-Hakim,Studenternas IP,2019-07-06,2019
+IFK Göteborg,GIF Sundsvall,2,1,9248,Kaspar Sjöberg,Gamla Ullevi,2019-07-06,2019
+Malmö FF,Örebro SK,2,1,11521,Magnus Lindgren,Stadion,2019-07-06,2019
+IFK Norrköping,BK Häcken,2,1,6433,Martin Strömbergsson,Östgötaporten,2019-07-07,2019
+Hammarby IF,Falkenbergs FF,6,2,18475,Bojan Pandzic,Tele2 Arena,2019-07-07,2019
+IF Elfsborg,Helsingborgs IF,1,1,5430,Patrik Eriksson,Borås Arena,2019-07-08,2019
+AFC Eskilstuna,Djurgårdens IF,1,1,6457,Stefan Johannesson,Tunavallen,2019-07-08,2019
+Falkenbergs FF,IFK Göteborg,1,1,6214,Adam Ladebäck,Falcon Alkoholfri Arena,2019-07-13,2019
+AIK,IF Elfsborg,3,0,12076,Victor Wolf,Friends Arena,2019-07-13,2019
+AFC Eskilstuna,Kalmar FF,3,1,1826,Martin Strömbergsson,Tunavallen,2019-07-13,2019
+BK Häcken,Örebro SK,3,0,5162,Patrik Eriksson,Bravida Arena,2019-07-14,2019
+Östersunds FK,IFK Norrköping,2,1,4519,Bojan Pandzic,Jämtkraft Arena,2019-07-14,2019
+Djurgårdens IF,Malmö FF,1,1,18316,Kristoffer Karlsson,Tele2 Arena,2019-07-14,2019
+Helsingborgs IF,IK Sirius,1,0,8056,Magnus Lindgren,Olympia,2019-07-15,2019
+GIF Sundsvall,Hammarby IF,2,3,6020,Mohammed Al-Hakim,NP3 Arena,2019-07-15,2019
+Örebro SK,Falkenbergs FF,4,0,3948,Kaspar Sjöberg,Behrn Arena,2019-07-20,2019
+AIK,Helsingborgs IF,2,0,14314,Mohammed Al-Hakim,Friends Arena,2019-07-20,2019
+GIF Sundsvall,BK Häcken,0,1,4060,Magnus Lindgren,NP3 Arena,2019-07-20,2019
+IFK Göteborg,AFC Eskilstuna,1,0,9763,Fredrik Klitte,Gamla Ullevi,2019-07-21,2019
+Malmö FF,IK Sirius,1,1,17474,Glenn Nyberg,Stadion,2019-07-21,2019
+IFK Norrköping,Östersunds FK,3,0,6036,Kristoffer Karlsson,Östgötaporten,2019-07-21,2019
+Kalmar FF,Djurgårdens IF,0,1,8520,Bojan Pandzic,Guldfågeln Arena,2019-07-22,2019
+Hammarby IF,IF Elfsborg,5,2,21161,Andreas Ekberg,Tele2 Arena,2019-07-22,2019
+Falkenbergs FF,GIF Sundsvall,2,0,2903,Glenn Nyberg,Falcon Alkoholfri Arena,2019-07-27,2019
+IK Sirius,AIK,0,2,6132,Patrik Eriksson,Studenternas IP,2019-07-27,2019
+AFC Eskilstuna,Hammarby IF,1,6,7037,Mohammed Al-Hakim,Tunavallen,2019-07-27,2019
+Östersunds FK,Malmö FF,0,0,5314,Martin Strömbergsson,Jämtkraft Arena,2019-07-28,2019
+Djurgårdens IF,BK Häcken,2,0,10748,Andreas Ekberg,Tele2 Arena,2019-07-28,2019
+IFK Göteborg,IFK Norrköping,0,0,14089,Kaspar Sjöberg,Gamla Ullevi,2019-07-28,2019
+Helsingborgs IF,Örebro SK,1,4,8182,Victor Wolf,Olympia,2019-07-29,2019
+IF Elfsborg,Kalmar FF,2,1,4727,Bojan Pandzic,Borås Arena,2019-07-29,2019
+Malmö FF,GIF Sundsvall,2,1,12635,Kristoffer Karlsson,Stadion,2019-05-28,2019
+AIK,IFK Norrköping,0,2,18091,Bojan Pandzic,Friends Arena,2019-06-25,2019
+Östersunds FK,AFC Eskilstuna,1,2,4875,Magnus Lindgren,Jämtkraft Arena,2019-08-03,2019
+Falkenbergs FF,Helsingborgs IF,1,1,4093,Granit Maqedonci,Falcon Alkoholfri Arena,2019-08-03,2019
+Kalmar FF,Hammarby IF,2,2,9116,Victor Wolf,Guldfågeln Arena,2019-08-04,2019
+BK Häcken,IK Sirius,4,1,1898,Fredrik Klitte,Bravida Arena,2019-08-04,2019
+IF Elfsborg,Djurgårdens IF,0,1,7075,Mohammed Al-Hakim,Borås Arena,2019-08-05,2019
+Örebro SK,IFK Göteborg,2,2,7261,Bojan Pandzic,Behrn Arena,2019-08-05,2019
+Djurgårdens IF,IK Sirius,4,0,13797,Kaspar Sjöberg,Tele2 Arena,2019-08-10,2019
+GIF Sundsvall,Östersunds FK,1,1,5550,Martin Strömbergsson,NP3 Arena,2019-08-10,2019
+BK Häcken,Malmö FF,1,1,4254,Mohammed Al-Hakim,Bravida Arena,2019-08-11,2019
+AFC Eskilstuna,AIK,2,4,6037,Bojan Pandzic,Tunavallen,2019-08-11,2019
+IFK Norrköping,IF Elfsborg,2,0,6102,Magnus Lindgren,Östgötaporten,2019-08-11,2019
+Hammarby IF,Helsingborgs IF,2,1,22137,Kristoffer Karlsson,Tele2 Arena,2019-08-11,2019
+Kalmar FF,Örebro SK,1,1,4274,Patrik Eriksson,Guldfågeln Arena,2019-08-12,2019
+IFK Göteborg,Falkenbergs FF,1,1,10757,Glenn Nyberg,Gamla Ullevi,2019-08-12,2019
+Hammarby IF,GIF Sundsvall,3,0,21337,Kaspar Sjöberg,Tele2 Arena,2019-08-17,2019
+Örebro SK,BK Häcken,1,2,4181,Glenn Nyberg,Behrn Arena,2019-08-18,2019
+AIK,Kalmar FF,1,2,14406,Stefan Johannesson,Friends Arena,2019-08-18,2019
+IK Sirius,IFK Norrköping,0,2,3795,Victor Wolf,Studenternas IP,2019-08-18,2019
+Malmö FF,Falkenbergs FF,5,0,14714,Adam Ladebäck,Stadion,2019-08-18,2019
+Helsingborgs IF,IFK Göteborg,1,2,9094,Andreas Ekberg,Olympia,2019-08-19,2019
+IF Elfsborg,Östersunds FK,4,1,4130,Kristoffer Karlsson,Borås Arena,2019-08-19,2019
+Djurgårdens IF,AFC Eskilstuna,3,0,13255,Mohammed Al-Hakim,Tele2 Arena,2019-08-19,2019
+IK Sirius,Örebro SK,3,4,3480,Fredrik Klitte,Studenternas IP,2019-08-24,2019
+IFK Norrköping,Helsingborgs IF,5,0,6721,Martin Strömbergsson,Östgötaporten,2019-08-25,2019
+Östersunds FK,AIK,1,3,5107,Kaspar Sjöberg,Jämtkraft Arena,2019-08-25,2019
+AFC Eskilstuna,BK Häcken,0,2,1876,Patrik Eriksson,Tunavallen,2019-08-25,2019
+Malmö FF,Djurgårdens IF,0,1,21812,Glenn Nyberg,Stadion,2019-08-25,2019
+GIF Sundsvall,IF Elfsborg,1,2,3550,Mohammed Al-Hakim,NP3 Arena,2019-08-26,2019
+Falkenbergs FF,Hammarby IF,0,2,4328,Andreas Ekberg,Falcon Alkoholfri Arena,2019-08-26,2019
+IFK Göteborg,Kalmar FF,4,0,11061,Victor Wolf,Gamla Ullevi,2019-08-26,2019
+Helsingborgs IF,Östersunds FK,2,0,7028,Kristoffer Karlsson,Olympia,2019-08-30,2019
+IF Elfsborg,IK Sirius,1,1,4272,Patrik Eriksson,Borås Arena,2019-08-31,2019
+Örebro SK,AFC Eskilstuna,3,1,4029,Kaspar Sjöberg,Behrn Arena,2019-08-31,2019
+GIF Sundsvall,IFK Göteborg,0,2,3580,Fredrik Klitte,NP3 Arena,2019-09-01,2019
+Kalmar FF,Malmö FF,0,5,6457,Mohammed Al-Hakim,Guldfågeln Arena,2019-09-01,2019
+AIK,Djurgårdens IF,1,0,45367,Andreas Ekberg,Friends Arena,2019-09-01,2019
+IFK Norrköping,Hammarby IF,2,0,13125,Glenn Nyberg,Östgötaporten,2019-09-01,2019
+BK Häcken,Falkenbergs FF,4,1,2452,Magnus Lindgren,Bravida Arena,2019-09-01,2019
+IK Sirius,Falkenbergs FF,2,0,4128,Mohammed Al-Hakim,Studenternas IP,2019-09-13,2019
+Örebro SK,GIF Sundsvall,0,0,3889,Victor Wolf,Behrn Arena,2019-09-14,2019
+Östersunds FK,Kalmar FF,1,2,4457,Kaspar Sjöberg,Jämtkraft Arena,2019-09-14,2019
+Hammarby IF,IFK Göteborg,6,2,26552,Kristoffer Karlsson,Tele2 Arena,2019-09-15,2019
+BK Häcken,AIK,1,2,5208,Glenn Nyberg,Bravida Arena,2019-09-15,2019
+Malmö FF,IFK Norrköping,1,0,16593,Andreas Ekberg,Stadion,2019-09-15,2019
+Djurgårdens IF,Helsingborgs IF,2,0,16027,Stefan Johannesson,Tele2 Arena,2019-09-16,2019
+AFC Eskilstuna,IF Elfsborg,2,2,1923,Martin Strömbergsson,Tunavallen,2019-09-16,2019
+GIF Sundsvall,Djurgårdens IF,1,4,5600,Patrik Eriksson,NP3 Arena,2019-09-20,2019
+Falkenbergs FF,Östersunds FK,1,0,2524,Victor Wolf,Falcon Alkoholfri Arena,2019-09-21,2019
+IFK Norrköping,Örebro SK,3,0,6340,Adam Ladebäck,Östgötaporten,2019-09-21,2019
+Kalmar FF,BK Häcken,1,1,3661,Martin Strömbergsson,Guldfågeln Arena,2019-09-21,2019
+IFK Göteborg,IK Sirius,2,1,10052,Kaspar Sjöberg,Gamla Ullevi,2019-09-21,2019
+Hammarby IF,AIK,2,1,27329,Kristoffer Karlsson,Tele2 Arena,2019-09-22,2019
+Helsingborgs IF,AFC Eskilstuna,2,1,6954,Mohammed Al-Hakim,Olympia,2019-09-22,2019
+IF Elfsborg,Malmö FF,0,3,6496,Magnus Lindgren,Borås Arena,2019-09-22,2019
+Kalmar FF,GIF Sundsvall,0,2,3589,Adam Ladebäck,Guldfågeln Arena,2019-09-24,2019
+Djurgårdens IF,Falkenbergs FF,1,0,15433,Kaspar Sjöberg,Tele2 Arena,2019-09-24,2019
+Örebro SK,Östersunds FK,2,0,3412,Patrik Eriksson,Behrn Arena,2019-09-25,2019
+BK Häcken,IF Elfsborg,1,2,2686,Victor Wolf,Bravida Arena,2019-09-25,2019
+AIK,IFK Göteborg,1,0,18068,Andreas Ekberg,Friends Arena,2019-09-25,2019
+IK Sirius,Hammarby IF,1,3,6035,Magnus Lindgren,Studenternas IP,2019-09-25,2019
+IFK Norrköping,AFC Eskilstuna,4,0,5444,Kristoffer Karlsson,Östgötaporten,2019-09-26,2019
+Malmö FF,Helsingborgs IF,3,0,21294,Glenn Nyberg,Stadion,2019-09-26,2019
+IFK Göteborg,BK Häcken,0,0,13514,Bojan Pandzic,Gamla Ullevi,2019-09-29,2019
+IF Elfsborg,AIK,1,1,6042,Mohammed Al-Hakim,Borås Arena,2019-09-29,2019
+GIF Sundsvall,IK Sirius,2,1,5724,Kristoffer Karlsson,NP3 Arena,2019-09-29,2019
+Falkenbergs FF,IFK Norrköping,0,2,3828,Fredrik Klitte,Falcon Alkoholfri Arena,2019-09-29,2019
+AFC Eskilstuna,Malmö FF,0,1,2167,Patrik Eriksson,Tunavallen,2019-09-29,2019
+Helsingborgs IF,Kalmar FF,2,0,6353,Victor Wolf,Olympia,2019-09-30,2019
+Östersunds FK,Djurgårdens IF,1,2,4262,Glenn Nyberg,Jämtkraft Arena,2019-09-30,2019
+Hammarby IF,Örebro SK,5,1,23194,Martin Strömbergsson,Tele2 Arena,2019-09-30,2019
+GIF Sundsvall,IFK Norrköping,4,4,4733,Magnus Lindgren,NP3 Arena,2019-10-05,2019
+AIK,Örebro SK,2,0,12427,Glenn Nyberg,Friends Arena,2019-10-05,2019
+IK Sirius,Helsingborgs IF,2,1,4201,Granit Maqedonci,Studenternas IP,2019-10-05,2019
+Kalmar FF,AFC Eskilstuna,0,0,3669,Mohammed Al-Hakim,Guldfågeln Arena,2019-10-06,2019
+Djurgårdens IF,Hammarby IF,1,2,25053,Kristoffer Karlsson,Tele2 Arena,2019-10-06,2019
+BK Häcken,Östersunds FK,1,1,2122,Stefan Johannesson,Bravida Arena,2019-10-06,2019
+IF Elfsborg,Falkenbergs FF,4,0,4795,Kaspar Sjöberg,Borås Arena,2019-10-06,2019
+Malmö FF,IFK Göteborg,1,0,18473,Martin Strömbergsson,Stadion,2019-10-06,2019
+AFC Eskilstuna,GIF Sundsvall,1,0,2248,Bojan Pandzic,Tunavallen,2019-10-18,2019
+Helsingborgs IF,BK Häcken,0,2,7339,Patrik Eriksson,Olympia,2019-10-19,2019
+Östersunds FK,IK Sirius,2,0,4308,Victor Wolf,Jämtkraft Arena,2019-10-19,2019
+Falkenbergs FF,AIK,1,5,3606,Martin Strömbergsson,Falcon Alkoholfri Arena,2019-10-20,2019
+Hammarby IF,Malmö FF,2,0,29117,Glenn Nyberg,Tele2 Arena,2019-10-20,2019
+IFK Norrköping,Kalmar FF,1,0,6571,Kaspar Sjöberg,Östgötaporten,2019-10-20,2019
+Örebro SK,IF Elfsborg,2,2,3814,Magnus Lindgren,Behrn Arena,2019-10-21,2019
+IFK Göteborg,Djurgårdens IF,0,1,13438,Kristoffer Karlsson,Gamla Ullevi,2019-10-21,2019
+GIF Sundsvall,Helsingborgs IF,1,2,4863,Victor Wolf,NP3 Arena,2019-10-26,2019
+Kalmar FF,Falkenbergs FF,2,3,5979,Glenn Nyberg,Guldfågeln Arena,2019-10-26,2019
+BK Häcken,IFK Norrköping,0,1,2969,Magnus Lindgren,Bravida Arena,2019-10-27,2019
+AFC Eskilstuna,IK Sirius,0,0,2307,Mohammed Al-Hakim,Tunavallen,2019-10-27,2019
+Östersunds FK,Hammarby IF,1,2,6395,Martin Strömbergsson,Jämtkraft Arena,2019-10-27,2019
+IF Elfsborg,IFK Göteborg,2,0,10167,Kaspar Sjöberg,Borås Arena,2019-10-28,2019
+Malmö FF,AIK,2,0,21379,Bojan Pandzic,Stadion,2019-10-28,2019
+Djurgårdens IF,Örebro SK,3,0,28258,Stefan Johannesson,Tele2 Arena,2019-10-28,2019
+Helsingborgs IF,IF Elfsborg,1,2,5556,Joakim Östling,Olympia,2019-11-02,2019
+Örebro SK,Malmö FF,0,5,7153,Victor Wolf,Behrn Arena,2019-11-02,2019
+Falkenbergs FF,AFC Eskilstuna,1,0,4266,Bojan Pandzic,Falcon Alkoholfri Arena,2019-11-02,2019
+IFK Norrköping,Djurgårdens IF,2,2,15150,Glenn Nyberg,Östgötaporten,2019-11-02,2019
+Hammarby IF,BK Häcken,4,1,31037,Mohammed Al-Hakim,Tele2 Arena,2019-11-02,2019
+IFK Göteborg,Östersunds FK,7,1,9629,Stefan Johannesson,Gamla Ullevi,2019-11-02,2019
+AIK,GIF Sundsvall,2,1,14355,Kaspar Sjöberg,Friends Arena,2019-11-02,2019
+IK Sirius,Kalmar FF,3,0,3903,Kristoffer Karlsson,Studenternas IP,2019-11-02,2019
