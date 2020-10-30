@@ -11,3 +11,6 @@
 
 ## SLU Open Data
 [Species portal](https://github.com/adamflr/Visuals/tree/master/Species%20portal/Output) - visualisations of data from the Swedish *Species Observation System* (*Artportalen*).
+
+## Allsvenska
+[Allsvenska](https://github.com/adamflr/Visuals/tree/master/Allsvenskan/Figures_out) - visualisations of data on the Swedish top football division for men (*Allsvenskan*, the *All-swedish*).
