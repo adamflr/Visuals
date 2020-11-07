@@ -33,6 +33,6 @@ dat_long %>%
   mutate(position = 1:n()) %>% 
   ungroup() %>% 
   group_by(sasong) %>% 
-  filter(omgång == max(omgång), position == 1) %>% 
+  filter(sasong >= 1990, omgång == max(omgång), position == 2) %>% 
   arrange(poängsnitt) %>% select(lag, omgång, position, poäng, poängsnitt) %>% print(n = 1000)
   

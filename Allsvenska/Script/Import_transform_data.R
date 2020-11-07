@@ -93,4 +93,4 @@ dat_temp <- dat_temp %>%
   mutate(publik = as.numeric(gsub(" ", "", publik)))
 
 # Export ----
-write_csv(dat_temp, "Allsvenska/Data_out/Alls_matcher.csv")
+# write_csv(dat_temp, "Allsvenska/Data_out/Alls_matcher.csv")
