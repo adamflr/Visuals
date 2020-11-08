@@ -19,7 +19,7 @@ dat_long <- dat_match %>%
          insläppta_mål = ifelse(plats == "hemma", bortamal, hemmamal))
 
 # Poäng per säsong och omgång
-dat_long %>% 
+dat_temp <- dat_long %>% 
   group_by(sasong, lag) %>% 
   mutate(omgång = 1:n(),
          poäng = cumsum(3 * (status == "seger") + (status == "lika")),
@@ -33,6 +33,11 @@ dat_long %>%
   mutate(position = 1:n()) %>% 
   ungroup() %>% 
   group_by(sasong) %>% 
-  filter(sasong >= 1990, omgång == max(omgång), position == 2) %>% 
-  arrange(poängsnitt) %>% select(lag, omgång, position, poäng, poängsnitt) %>% print(n = 1000)
-  
+  filter(omgång == max(omgång), position < 3) %>% 
+  ungroup()
+
+dat_temp %>% 
+  group_by(sasong) %>% 
+  summarise(mff = sum(lag == "Malmö FF"),
+            ifk = sum(lag == "IFK Göteborg")) %>% 
+  filter(mff == 1 & ifk == 1)
