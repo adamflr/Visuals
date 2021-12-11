@@ -59,12 +59,12 @@ g <- ggplot(dat_temp, aes(Year, 0)) +
                                                     y = c(dat_temp$ChampionHeight[!is.na(dat_temp$ChampionNA)], rep(0, 17)))) + 
   geom_line(aes(x, y, group = gr), 
             data = data.frame(x = c(dat_temp$Year[!is.na(dat_temp$ChampionNA)], 
-                                    dat_temp$Year[!is.na(dat_temp$ChampionNA)][-1] - 1, 2019), 
+                                    dat_temp$Year[!is.na(dat_temp$ChampionNA)][-1] - 1, 2021), 
                               gr = 1:17,
                               y = dat_temp$ChampionHeight[!is.na(dat_temp$ChampionNA)])) +
   geom_point(aes(col = is.na(ChampionNA)), size = 5) +
   geom_text(aes(label = Year), size = 1.5, col = ifelse(is.na(dat_temp$ChampionNA), "white", "black")) + 
-  ylim(-0.3, 0.6) +
+  ylim(-0.3, 1.6) +
   theme(legend.position = "none") +
   scale_color_manual(values = c("red", "black")) +
   theme_nothing()
@@ -99,7 +99,7 @@ g2 <- ggplot(dat_temp, aes(Year, 0)) +
                                                     y = c(dat_temp$ChampionHeight[!is.na(dat_temp$ChampionNA)], rep(0, 17)))) + 
   geom_line(aes(x, y, group = gr), 
             data = data.frame(x = c(dat_temp$Year[!is.na(dat_temp$ChampionNA)], 
-                                    dat_temp$Year[!is.na(dat_temp$ChampionNA)][-1] - 1, 2019), 
+                                    dat_temp$Year[!is.na(dat_temp$ChampionNA)][-1] - 1, 2021), 
                               gr = 1:17,
                               y = dat_temp$ChampionHeight[!is.na(dat_temp$ChampionNA)])) +
   geom_point(aes(col = is.na(ChampionNA)), size = 5) +
@@ -108,7 +108,7 @@ g2 <- ggplot(dat_temp, aes(Year, 0)) +
   theme(legend.position = "none") +
   scale_color_manual(values = c("red", "black")) +
   theme_nothing()
-#g2
+g2
 
-ggsave("Chess WC/Output/Timeline5.pdf", g2, width = 59.4, height = 42/2, units = "cm")
+ggsave("Chess WC/Output/Timeline6.pdf", g2, width = 59.4, height = 42/2, units = "cm")
 

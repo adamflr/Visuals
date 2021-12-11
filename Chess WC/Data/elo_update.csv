@@ -1,0 +1,361 @@
+Player,Rating,Year,Month,Source,Ranking,Last name,Champion,Champion status
+"Carlsen, Magnus",2845,2019,4,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2819,2019,4,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2809,2019,4,fide,3,Ding,Carlsen 1,Not champion
+"Giri, Anish",2797,2019,4,fide,4,Giri,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2793,2019,4,fide,5,Mamedyarov,Carlsen 1,Not champion
+"Anand, Viswanathan",2774,2019,4,fide,6,Anand,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2773,2019,4,fide,7,Nepomniachtchi,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2773,2019,4,fide,8,Vachier-Lagrave,Carlsen 1,Not champion
+"Grischuk, Alexander",2771,2019,4,fide,9,Grischuk,Carlsen 1,Not champion
+"Aronian, Levon",2763,2019,4,fide,10,Aronian,Carlsen 1,Not champion
+"Carlsen, Magnus",2863,2020,4,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2835,2020,4,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2791,2020,4,fide,3,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2784,2020,4,fide,4,Nepomniachtchi,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2778,2020,4,fide,5,Vachier-Lagrave,Carlsen 1,Not champion
+"Grischuk, Alexander",2777,2020,4,fide,6,Grischuk,Carlsen 1,Not champion
+"Aronian, Levon",2773,2020,4,fide,7,Aronian,Carlsen 1,Not champion
+"So, Wesley",2770,2020,4,fide,8,So,Carlsen 1,Not champion
+"Radjabov, Teimour",2765,2020,4,fide,9,Radjabov,Carlsen 1,Not champion
+"Giri, Anish",2764,2020,4,fide,10,Giri,Carlsen 1,Not champion
+"Carlsen, Magnus",2847,2021,4,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2820,2021,4,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2791,2021,4,fide,3,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2789,2021,4,fide,4,Nepomniachtchi,Carlsen 1,Not champion
+"Aronian, Levon",2781,2021,4,fide,5,Aronian,Carlsen 1,Not champion
+"Grischuk, Alexander",2777,2021,4,fide,6,Grischuk,Carlsen 1,Not champion
+"Giri, Anish",2776,2021,4,fide,7,Giri,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2770,2021,4,fide,8,Mamedyarov,Carlsen 1,Not champion
+"So, Wesley",2770,2021,4,fide,9,So,Carlsen 1,Not champion
+"Radjabov, Teimour",2765,2021,4,fide,10,Radjabov,Carlsen 1,Not champion
+"Carlsen, Magnus",2882,2019,8,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2818,2019,8,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2805,2019,8,fide,3,Ding,Carlsen 1,Not champion
+"Giri, Anish",2779,2019,8,fide,4,Giri,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2778,2019,8,fide,5,Vachier-Lagrave,Carlsen 1,Not champion
+"So, Wesley",2776,2019,8,fide,6,So,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2774,2019,8,fide,7,Nepomniachtchi,Carlsen 1,Not champion
+"Aronian, Levon",2765,2019,8,fide,8,Aronian,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2764,2019,8,fide,9,Mamedyarov,Carlsen 1,Not champion
+"Dominguez Perez, Leinier",2763,2019,8,fide,10,Dominguez Perez,Carlsen 1,Not champion
+"Carlsen, Magnus",2863,2020,8,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2835,2020,8,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2791,2020,8,fide,3,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2784,2020,8,fide,4,Nepomniachtchi,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2778,2020,8,fide,5,Vachier-Lagrave,Carlsen 1,Not champion
+"Grischuk, Alexander",2777,2020,8,fide,6,Grischuk,Carlsen 1,Not champion
+"Aronian, Levon",2773,2020,8,fide,7,Aronian,Carlsen 1,Not champion
+"So, Wesley",2770,2020,8,fide,8,So,Carlsen 1,Not champion
+"Radjabov, Teimour",2765,2020,8,fide,9,Radjabov,Carlsen 1,Not champion
+"Giri, Anish",2764,2020,8,fide,10,Giri,Carlsen 1,Not champion
+"Carlsen, Magnus",2847,2021,8,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2806,2021,8,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2799,2021,8,fide,3,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2792,2021,8,fide,4,Nepomniachtchi,Carlsen 1,Not champion
+"Aronian, Levon",2782,2021,8,fide,5,Aronian,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2782,2021,8,fide,6,Mamedyarov,Carlsen 1,Not champion
+"Grischuk, Alexander",2778,2021,8,fide,7,Grischuk,Carlsen 1,Not champion
+"Giri, Anish",2776,2021,8,fide,8,Giri,Carlsen 1,Not champion
+"So, Wesley",2772,2021,8,fide,9,So,Carlsen 1,Not champion
+"Radjabov, Teimour",2763,2021,8,fide,10,Radjabov,Carlsen 1,Not champion
+"Carlsen, Magnus",2872,2019,12,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2822,2019,12,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2801,2019,12,fide,3,Ding,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2780,2019,12,fide,4,Vachier-Lagrave,Carlsen 1,Not champion
+"Grischuk, Alexander",2777,2019,12,fide,5,Grischuk,Carlsen 1,Not champion
+"Aronian, Levon",2775,2019,12,fide,6,Aronian,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2772,2019,12,fide,7,Mamedyarov,Carlsen 1,Not champion
+"Giri, Anish",2769,2019,12,fide,8,Giri,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2767,2019,12,fide,9,Nepomniachtchi,Carlsen 1,Not champion
+"Radjabov, Teimour",2765,2019,12,fide,10,Radjabov,Carlsen 1,Not champion
+"Carlsen, Magnus",2862,2020,12,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2823,2020,12,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2791,2020,12,fide,3,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2784,2020,12,fide,4,Nepomniachtchi,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2784,2020,12,fide,5,Vachier-Lagrave,Carlsen 1,Not champion
+"Aronian, Levon",2781,2020,12,fide,6,Aronian,Carlsen 1,Not champion
+"Grischuk, Alexander",2777,2020,12,fide,7,Grischuk,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2770,2020,12,fide,8,Mamedyarov,Carlsen 1,Not champion
+"So, Wesley",2770,2020,12,fide,9,So,Carlsen 1,Not champion
+"Radjabov, Teimour",2765,2020,12,fide,10,Radjabov,Carlsen 1,Not champion
+"Carlsen, Magnus",2856,2021,12,fide,1,Carlsen,Carlsen 1,Champion
+"Firouzja, Alireza",2804,2021,12,fide,2,Firouzja,Carlsen 1,Not champion
+"Ding, Liren",2799,2021,12,fide,3,Ding,Carlsen 1,Not champion
+"Caruana, Fabiano",2792,2021,12,fide,4,Caruana,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2782,2021,12,fide,5,Nepomniachtchi,Carlsen 1,Not champion
+"Aronian, Levon",2772,2021,12,fide,6,Aronian,Carlsen 1,Not champion
+"Giri, Anish",2772,2021,12,fide,7,Giri,Carlsen 1,Not champion
+"So, Wesley",2772,2021,12,fide,8,So,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2767,2021,12,fide,9,Mamedyarov,Carlsen 1,Not champion
+"Grischuk, Alexander",2764,2021,12,fide,10,Grischuk,Carlsen 1,Not champion
+"Carlsen, Magnus",2845,2019,2,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2828,2019,2,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2812,2019,2,fide,3,Ding,Carlsen 1,Not champion
+"Giri, Anish",2797,2019,2,fide,4,Giri,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2790,2019,2,fide,5,Mamedyarov,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2780,2019,2,fide,6,Vachier-Lagrave,Carlsen 1,Not champion
+"Anand, Viswanathan",2779,2019,2,fide,7,Anand,Carlsen 1,Not champion
+"Grischuk, Alexander",2771,2019,2,fide,8,Grischuk,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2771,2019,2,fide,9,Nepomniachtchi,Carlsen 1,Not champion
+"Aronian, Levon",2767,2019,2,fide,10,Aronian,Carlsen 1,Not champion
+"Carlsen, Magnus",2862,2020,2,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2842,2020,2,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2805,2020,2,fide,3,Ding,Carlsen 1,Not champion
+"Grischuk, Alexander",2777,2020,2,fide,4,Grischuk,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2774,2020,2,fide,5,Nepomniachtchi,Carlsen 1,Not champion
+"Aronian, Levon",2773,2020,2,fide,6,Aronian,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2770,2020,2,fide,7,Mamedyarov,Carlsen 1,Not champion
+"So, Wesley",2770,2020,2,fide,8,So,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2770,2020,2,fide,9,Vachier-Lagrave,Carlsen 1,Not champion
+"Radjabov, Teimour",2765,2020,2,fide,10,Radjabov,Carlsen 1,Not champion
+"Carlsen, Magnus",2862,2021,2,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2823,2021,2,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2791,2021,2,fide,3,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2789,2021,2,fide,4,Nepomniachtchi,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2784,2021,2,fide,5,Vachier-Lagrave,Carlsen 1,Not champion
+"Aronian, Levon",2781,2021,2,fide,6,Aronian,Carlsen 1,Not champion
+"Grischuk, Alexander",2777,2021,2,fide,7,Grischuk,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2770,2021,2,fide,8,Mamedyarov,Carlsen 1,Not champion
+"So, Wesley",2770,2021,2,fide,9,So,Carlsen 1,Not champion
+"Radjabov, Teimour",2765,2021,2,fide,10,Radjabov,Carlsen 1,Not champion
+"Carlsen, Magnus",2835,2019,1,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2828,2019,1,fide,2,Caruana,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2817,2019,1,fide,3,Mamedyarov,Carlsen 1,Not champion
+"Ding, Liren",2813,2019,1,fide,4,Ding,Carlsen 1,Not champion
+"Giri, Anish",2783,2019,1,fide,5,Giri,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2780,2019,1,fide,6,Vachier-Lagrave,Carlsen 1,Not champion
+"Kramnik, Vladimir",2777,2019,1,fide,7,Kramnik,Carlsen 1,Not champion
+"Anand, Viswanathan",2773,2019,1,fide,8,Anand,Carlsen 1,Not champion
+"Grischuk, Alexander",2771,2019,1,fide,9,Grischuk,Carlsen 1,Not champion
+"Aronian, Levon",2767,2019,1,fide,10,Aronian,Carlsen 1,Not champion
+"Carlsen, Magnus",2872,2020,1,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2822,2020,1,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2805,2020,1,fide,3,Ding,Carlsen 1,Not champion
+"Grischuk, Alexander",2777,2020,1,fide,4,Grischuk,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2774,2020,1,fide,5,Nepomniachtchi,Carlsen 1,Not champion
+"Aronian, Levon",2773,2020,1,fide,6,Aronian,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2770,2020,1,fide,7,Mamedyarov,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2770,2020,1,fide,8,Vachier-Lagrave,Carlsen 1,Not champion
+"Giri, Anish",2768,2020,1,fide,9,Giri,Carlsen 1,Not champion
+"Radjabov, Teimour",2765,2020,1,fide,10,Radjabov,Carlsen 1,Not champion
+"Carlsen, Magnus",2862,2021,1,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2823,2021,1,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2791,2021,1,fide,3,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2789,2021,1,fide,4,Nepomniachtchi,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2784,2021,1,fide,5,Vachier-Lagrave,Carlsen 1,Not champion
+"Aronian, Levon",2781,2021,1,fide,6,Aronian,Carlsen 1,Not champion
+"Grischuk, Alexander",2777,2021,1,fide,7,Grischuk,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2770,2021,1,fide,8,Mamedyarov,Carlsen 1,Not champion
+"So, Wesley",2770,2021,1,fide,9,So,Carlsen 1,Not champion
+"Radjabov, Teimour",2765,2021,1,fide,10,Radjabov,Carlsen 1,Not champion
+"Carlsen, Magnus",2872,2019,7,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2819,2019,7,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2812,2019,7,fide,3,Ding,Carlsen 1,Not champion
+"Giri, Anish",2779,2019,7,fide,4,Giri,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2775,2019,7,fide,5,Nepomniachtchi,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2775,2019,7,fide,6,Vachier-Lagrave,Carlsen 1,Not champion
+"Grischuk, Alexander",2766,2019,7,fide,7,Grischuk,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2765,2019,7,fide,8,Mamedyarov,Carlsen 1,Not champion
+"Anand, Viswanathan",2764,2019,7,fide,9,Anand,Carlsen 1,Not champion
+"So, Wesley",2763,2019,7,fide,10,So,Carlsen 1,Not champion
+"Carlsen, Magnus",2863,2020,7,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2835,2020,7,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2791,2020,7,fide,3,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2784,2020,7,fide,4,Nepomniachtchi,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2778,2020,7,fide,5,Vachier-Lagrave,Carlsen 1,Not champion
+"Grischuk, Alexander",2777,2020,7,fide,6,Grischuk,Carlsen 1,Not champion
+"Aronian, Levon",2773,2020,7,fide,7,Aronian,Carlsen 1,Not champion
+"So, Wesley",2770,2020,7,fide,8,So,Carlsen 1,Not champion
+"Radjabov, Teimour",2765,2020,7,fide,9,Radjabov,Carlsen 1,Not champion
+"Giri, Anish",2764,2020,7,fide,10,Giri,Carlsen 1,Not champion
+"Carlsen, Magnus",2847,2021,7,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2806,2021,7,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2799,2021,7,fide,3,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2792,2021,7,fide,4,Nepomniachtchi,Carlsen 1,Not champion
+"Aronian, Levon",2782,2021,7,fide,5,Aronian,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2782,2021,7,fide,6,Mamedyarov,Carlsen 1,Not champion
+"Grischuk, Alexander",2778,2021,7,fide,7,Grischuk,Carlsen 1,Not champion
+"Giri, Anish",2776,2021,7,fide,8,Giri,Carlsen 1,Not champion
+"So, Wesley",2772,2021,7,fide,9,So,Carlsen 1,Not champion
+"Radjabov, Teimour",2763,2021,7,fide,10,Radjabov,Carlsen 1,Not champion
+"Carlsen, Magnus",2875,2019,6,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2819,2019,6,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2805,2019,6,fide,3,Ding,Carlsen 1,Not champion
+"Giri, Anish",2779,2019,6,fide,4,Giri,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2779,2019,6,fide,5,Vachier-Lagrave,Carlsen 1,Not champion
+"Grischuk, Alexander",2775,2019,6,fide,6,Grischuk,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2775,2019,6,fide,7,Nepomniachtchi,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2774,2019,6,fide,8,Mamedyarov,Carlsen 1,Not champion
+"Anand, Viswanathan",2767,2019,6,fide,9,Anand,Carlsen 1,Not champion
+"Artemiev, Vladislav",2761,2019,6,fide,10,Artemiev,Carlsen 1,Not champion
+"Carlsen, Magnus",2863,2020,6,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2835,2020,6,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2791,2020,6,fide,3,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2784,2020,6,fide,4,Nepomniachtchi,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2778,2020,6,fide,5,Vachier-Lagrave,Carlsen 1,Not champion
+"Grischuk, Alexander",2777,2020,6,fide,6,Grischuk,Carlsen 1,Not champion
+"Aronian, Levon",2773,2020,6,fide,7,Aronian,Carlsen 1,Not champion
+"So, Wesley",2770,2020,6,fide,8,So,Carlsen 1,Not champion
+"Radjabov, Teimour",2765,2020,6,fide,9,Radjabov,Carlsen 1,Not champion
+"Giri, Anish",2764,2020,6,fide,10,Giri,Carlsen 1,Not champion
+"Carlsen, Magnus",2847,2021,6,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2820,2021,6,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2799,2021,6,fide,3,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2792,2021,6,fide,4,Nepomniachtchi,Carlsen 1,Not champion
+"Aronian, Levon",2781,2021,6,fide,5,Aronian,Carlsen 1,Not champion
+"Giri, Anish",2780,2021,6,fide,6,Giri,Carlsen 1,Not champion
+"Grischuk, Alexander",2776,2021,6,fide,7,Grischuk,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2770,2021,6,fide,8,Mamedyarov,Carlsen 1,Not champion
+"So, Wesley",2770,2021,6,fide,9,So,Carlsen 1,Not champion
+"Radjabov, Teimour",2765,2021,6,fide,10,Radjabov,Carlsen 1,Not champion
+"Carlsen, Magnus",2845,2019,3,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2828,2019,3,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2812,2019,3,fide,3,Ding,Carlsen 1,Not champion
+"Giri, Anish",2797,2019,3,fide,4,Giri,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2790,2019,3,fide,5,Mamedyarov,Carlsen 1,Not champion
+"Anand, Viswanathan",2779,2019,3,fide,6,Anand,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2775,2019,3,fide,7,Vachier-Lagrave,Carlsen 1,Not champion
+"Grischuk, Alexander",2771,2019,3,fide,8,Grischuk,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2771,2019,3,fide,9,Nepomniachtchi,Carlsen 1,Not champion
+"So, Wesley",2762,2019,3,fide,10,So,Carlsen 1,Not champion
+"Carlsen, Magnus",2862,2020,3,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2842,2020,3,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2805,2020,3,fide,3,Ding,Carlsen 1,Not champion
+"Grischuk, Alexander",2777,2020,3,fide,4,Grischuk,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2774,2020,3,fide,5,Nepomniachtchi,Carlsen 1,Not champion
+"Aronian, Levon",2773,2020,3,fide,6,Aronian,Carlsen 1,Not champion
+"So, Wesley",2770,2020,3,fide,7,So,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2767,2020,3,fide,8,Vachier-Lagrave,Carlsen 1,Not champion
+"Radjabov, Teimour",2765,2020,3,fide,9,Radjabov,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2764,2020,3,fide,10,Mamedyarov,Carlsen 1,Not champion
+"Carlsen, Magnus",2847,2021,3,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2820,2021,3,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2791,2021,3,fide,3,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2789,2021,3,fide,4,Nepomniachtchi,Carlsen 1,Not champion
+"Aronian, Levon",2781,2021,3,fide,5,Aronian,Carlsen 1,Not champion
+"Grischuk, Alexander",2777,2021,3,fide,6,Grischuk,Carlsen 1,Not champion
+"Giri, Anish",2776,2021,3,fide,7,Giri,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2770,2021,3,fide,8,Mamedyarov,Carlsen 1,Not champion
+"So, Wesley",2770,2021,3,fide,9,So,Carlsen 1,Not champion
+"Radjabov, Teimour",2765,2021,3,fide,10,Radjabov,Carlsen 1,Not champion
+"Carlsen, Magnus",2861,2019,5,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2816,2019,5,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2805,2019,5,fide,3,Ding,Carlsen 1,Not champion
+"Giri, Anish",2787,2019,5,fide,4,Giri,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2781,2019,5,fide,5,Mamedyarov,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2780,2019,5,fide,6,Vachier-Lagrave,Carlsen 1,Not champion
+"Anand, Viswanathan",2774,2019,5,fide,7,Anand,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2773,2019,5,fide,8,Nepomniachtchi,Carlsen 1,Not champion
+"Grischuk, Alexander",2772,2019,5,fide,9,Grischuk,Carlsen 1,Not champion
+"Aronian, Levon",2762,2019,5,fide,10,Aronian,Carlsen 1,Not champion
+"Carlsen, Magnus",2863,2020,5,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2835,2020,5,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2791,2020,5,fide,3,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2784,2020,5,fide,4,Nepomniachtchi,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2778,2020,5,fide,5,Vachier-Lagrave,Carlsen 1,Not champion
+"Grischuk, Alexander",2777,2020,5,fide,6,Grischuk,Carlsen 1,Not champion
+"Aronian, Levon",2773,2020,5,fide,7,Aronian,Carlsen 1,Not champion
+"So, Wesley",2770,2020,5,fide,8,So,Carlsen 1,Not champion
+"Radjabov, Teimour",2765,2020,5,fide,9,Radjabov,Carlsen 1,Not champion
+"Giri, Anish",2764,2020,5,fide,10,Giri,Carlsen 1,Not champion
+"Carlsen, Magnus",2847,2021,5,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2820,2021,5,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2799,2021,5,fide,3,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2792,2021,5,fide,4,Nepomniachtchi,Carlsen 1,Not champion
+"Aronian, Levon",2781,2021,5,fide,5,Aronian,Carlsen 1,Not champion
+"Giri, Anish",2780,2021,5,fide,6,Giri,Carlsen 1,Not champion
+"Grischuk, Alexander",2776,2021,5,fide,7,Grischuk,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2770,2021,5,fide,8,Mamedyarov,Carlsen 1,Not champion
+"So, Wesley",2770,2021,5,fide,9,So,Carlsen 1,Not champion
+"Radjabov, Teimour",2765,2021,5,fide,10,Radjabov,Carlsen 1,Not champion
+"Carlsen, Magnus",2870,2019,11,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2822,2019,11,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2801,2019,11,fide,3,Ding,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2777,2019,11,fide,4,Vachier-Lagrave,Carlsen 1,Not champion
+"Giri, Anish",2776,2019,11,fide,5,Giri,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2773,2019,11,fide,6,Nepomniachtchi,Carlsen 1,Not champion
+"Aronian, Levon",2772,2019,11,fide,7,Aronian,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2772,2019,11,fide,8,Mamedyarov,Carlsen 1,Not champion
+"Radjabov, Teimour",2767,2019,11,fide,9,Radjabov,Carlsen 1,Not champion
+"Grischuk, Alexander",2764,2019,11,fide,10,Grischuk,Carlsen 1,Not champion
+"Carlsen, Magnus",2862,2020,11,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2823,2020,11,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2791,2020,11,fide,3,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2784,2020,11,fide,4,Nepomniachtchi,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2784,2020,11,fide,5,Vachier-Lagrave,Carlsen 1,Not champion
+"Aronian, Levon",2781,2020,11,fide,6,Aronian,Carlsen 1,Not champion
+"Grischuk, Alexander",2777,2020,11,fide,7,Grischuk,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2770,2020,11,fide,8,Mamedyarov,Carlsen 1,Not champion
+"So, Wesley",2770,2020,11,fide,9,So,Carlsen 1,Not champion
+"Radjabov, Teimour",2765,2020,11,fide,10,Radjabov,Carlsen 1,Not champion
+"Carlsen, Magnus",2855,2021,11,fide,1,Carlsen,Carlsen 1,Champion
+"Ding, Liren",2799,2021,11,fide,2,Ding,Carlsen 1,Not champion
+"Caruana, Fabiano",2791,2021,11,fide,3,Caruana,Carlsen 1,Not champion
+"Aronian, Levon",2782,2021,11,fide,4,Aronian,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2782,2021,11,fide,5,Nepomniachtchi,Carlsen 1,Not champion
+"Giri, Anish",2774,2021,11,fide,6,Giri,Carlsen 1,Not champion
+"Grischuk, Alexander",2773,2021,11,fide,7,Grischuk,Carlsen 1,Not champion
+"So, Wesley",2772,2021,11,fide,8,So,Carlsen 1,Not champion
+"Firouzja, Alireza",2770,2021,11,fide,9,Firouzja,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2766,2021,11,fide,10,Vachier-Lagrave,Carlsen 1,Not champion
+"Carlsen, Magnus",2876,2019,10,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2812,2019,10,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2811,2019,10,fide,3,Ding,Carlsen 1,Not champion
+"Giri, Anish",2780,2019,10,fide,4,Giri,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2776,2019,10,fide,5,Nepomniachtchi,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2774,2019,10,fide,6,Vachier-Lagrave,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2767,2019,10,fide,7,Mamedyarov,Carlsen 1,Not champion
+"So, Wesley",2767,2019,10,fide,8,So,Carlsen 1,Not champion
+"Anand, Viswanathan",2765,2019,10,fide,9,Anand,Carlsen 1,Not champion
+"Dominguez Perez, Leinier",2763,2019,10,fide,10,Dominguez Perez,Carlsen 1,Not champion
+"Carlsen, Magnus",2863,2020,10,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2828,2020,10,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2791,2020,10,fide,3,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2784,2020,10,fide,4,Nepomniachtchi,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2784,2020,10,fide,5,Vachier-Lagrave,Carlsen 1,Not champion
+"Grischuk, Alexander",2777,2020,10,fide,6,Grischuk,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2770,2020,10,fide,7,Mamedyarov,Carlsen 1,Not champion
+"So, Wesley",2770,2020,10,fide,8,So,Carlsen 1,Not champion
+"Aronian, Levon",2767,2020,10,fide,9,Aronian,Carlsen 1,Not champion
+"Radjabov, Teimour",2765,2020,10,fide,10,Radjabov,Carlsen 1,Not champion
+"Carlsen, Magnus",2855,2021,10,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2800,2021,10,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2799,2021,10,fide,3,Ding,Carlsen 1,Not champion
+"Aronian, Levon",2782,2021,10,fide,4,Aronian,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2782,2021,10,fide,5,Nepomniachtchi,Carlsen 1,Not champion
+"So, Wesley",2778,2021,10,fide,6,So,Carlsen 1,Not champion
+"Giri, Anish",2774,2021,10,fide,7,Giri,Carlsen 1,Not champion
+"Grischuk, Alexander",2773,2021,10,fide,8,Grischuk,Carlsen 1,Not champion
+"Firouzja, Alireza",2770,2021,10,fide,9,Firouzja,Carlsen 1,Not champion
+"Rapport, Richard",2770,2021,10,fide,10,Rapport,Carlsen 1,Not champion
+"Carlsen, Magnus",2876,2019,9,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2812,2019,9,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2811,2019,9,fide,3,Ding,Carlsen 1,Not champion
+"Giri, Anish",2780,2019,9,fide,4,Giri,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2776,2019,9,fide,5,Nepomniachtchi,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2774,2019,9,fide,6,Vachier-Lagrave,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2767,2019,9,fide,7,Mamedyarov,Carlsen 1,Not champion
+"So, Wesley",2767,2019,9,fide,8,So,Carlsen 1,Not champion
+"Anand, Viswanathan",2765,2019,9,fide,9,Anand,Carlsen 1,Not champion
+"Dominguez Perez, Leinier",2763,2019,9,fide,10,Dominguez Perez,Carlsen 1,Not champion
+"Carlsen, Magnus",2863,2020,9,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2835,2020,9,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2791,2020,9,fide,3,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2784,2020,9,fide,4,Nepomniachtchi,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2778,2020,9,fide,5,Vachier-Lagrave,Carlsen 1,Not champion
+"Grischuk, Alexander",2777,2020,9,fide,6,Grischuk,Carlsen 1,Not champion
+"Aronian, Levon",2773,2020,9,fide,7,Aronian,Carlsen 1,Not champion
+"So, Wesley",2770,2020,9,fide,8,So,Carlsen 1,Not champion
+"Radjabov, Teimour",2765,2020,9,fide,9,Radjabov,Carlsen 1,Not champion
+"Giri, Anish",2764,2020,9,fide,10,Giri,Carlsen 1,Not champion
+"Carlsen, Magnus",2855,2021,9,fide,1,Carlsen,Carlsen 1,Champion
+"Caruana, Fabiano",2800,2021,9,fide,2,Caruana,Carlsen 1,Not champion
+"Ding, Liren",2799,2021,9,fide,3,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2792,2021,9,fide,4,Nepomniachtchi,Carlsen 1,Not champion
+"Aronian, Levon",2782,2021,9,fide,5,Aronian,Carlsen 1,Not champion
+"So, Wesley",2778,2021,9,fide,6,So,Carlsen 1,Not champion
+"Giri, Anish",2777,2021,9,fide,7,Giri,Carlsen 1,Not champion
+"Grischuk, Alexander",2775,2021,9,fide,8,Grischuk,Carlsen 1,Not champion
+"Radjabov, Teimour",2763,2021,9,fide,9,Radjabov,Carlsen 1,Not champion
+"Vachier-Lagrave, Maxime",2763,2021,9,fide,10,Vachier-Lagrave,Carlsen 1,Not champion
