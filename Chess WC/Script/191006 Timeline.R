@@ -87,10 +87,25 @@ g2 <- ggplot(dat_temp, aes(Year, 0)) +
   geom_line(aes(Year + (Month - 1) / 12, RatingStand, group = Ranking), inherit.aes = F, 
             data = dat_elo %>% filter(Year > 1920), alpha = 0.2) +
   geom_text(aes(x, y, label = text), 
-            data = data.frame(x = 1948, y = -0.5, text = "In 1948, Botvinnik places first \nin the Hague-Moscow tournament, \nahead of Smyslov, Keres, Reshevsky \nand Euwe."), 
+            data = data.frame(x = 1948, y = -0.5, 
+                              text = paste0("In 1948, Botvinnik places first \n",
+                                            "in the Hague-Moscow tournament, \n",
+                                            "ahead of Smyslov, Keres, Reshevsky \nand Euwe.")), 
             hjust = 0, nudge_x = -0.5, size = 2) +
   geom_text(aes(x, y, label = text), 
-            data = data.frame(x = 2007, y = -0.5, text = "In 2007, Anand places first \nin the Mexico City tournament, \nahead of Kramnik, Gelfand, \nLeko, Svidler, Morozevich, \nAronian and Grischuk."), 
+            data = data.frame(x = 2007, y = -0.5, 
+                              text = paste0("In 2007, Anand places first \n",
+                                            "in the Mexico City tournament, \n",
+                                            "ahead of Kramnik, Gelfand, \n",
+                                            "Leko, Svidler, Morozevich, \n",
+                                            "Aronian and Grischuk.")), 
+            hjust = 0, size = 2, nudge_x = -0.5) +
+  geom_text(aes(x, y, label = text), 
+            data = data.frame(x = 1975, y = -0.5, 
+                              text = paste0("In 1974, Karpov wins the 1974 Candidates\n",
+                                            "in a final versus Korchnoi,\n",
+                                            "and becomes world champion in 1975 as Fisher\n", 
+                                            "forfeits the championship match.")), 
             hjust = 0, size = 2, nudge_x = -0.5) +
   geom_smooth(aes(Year + (Month - 1) / 12, RatingStand, group = Champion), 
               data = dat_elo %>% filter(Champion.status == "Champion", Year > 1920), 
@@ -107,8 +122,14 @@ g2 <- ggplot(dat_temp, aes(Year, 0)) +
   ylim(-0.95, 1.7) +
   theme(legend.position = "none") +
   scale_color_manual(values = c("red", "black")) +
-  theme_nothing()
+  theme_nothing() +
+  annotate("text", x = 2021, y = -0.85, hjust = 1, size = 1.75,
+           label = paste0("Timeline of the chess world championship 1921 - 2021.\n",
+                          "Follows the Kasparov continuity 1993 - 2005.\n",
+                          "Ratings of world top ten given as grey lines.\n",
+                          "Red line is smoothed rating curve of the world champion.\n",
+                          "Ratings are Chessmetrics (- June 2000) and FIDE (July 2000 -)."))
 g2
 
-ggsave("Chess WC/Output/Timeline6.pdf", g2, width = 59.4, height = 42/2, units = "cm")
-
+# ggsave("Chess WC/Output/Timeline6.pdf", g2, width = 59.4, height = 42/2, units = "cm")
+ggsave("Chess WC/Output/Timeline6.png", g2, width = 65.4, height = 42/2, units = "cm")

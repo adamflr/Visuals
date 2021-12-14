@@ -36,8 +36,4 @@ dat_temp <- dat_long %>%
   filter(omgång == max(omgång), position < 3) %>% 
   ungroup()
 
-dat_temp %>% 
-  group_by(sasong) %>% 
-  summarise(mff = sum(lag == "Malmö FF"),
-            ifk = sum(lag == "IFK Göteborg")) %>% 
-  filter(mff == 1 & ifk == 1)
+dat_temp %>% filter(position == 1, sasong > 2008) %>% arrange(sasong) %>% print(n = 30)
