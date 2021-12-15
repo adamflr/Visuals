@@ -134,3 +134,4 @@ g2
 
 # ggsave("Chess WC/Output/Timeline6.pdf", g2, width = 59.4, height = 42/2, units = "cm")
 # ggsave("Chess WC/Output/Timeline6.png", g2, width = 65.4, height = 42/2, units = "cm")
+
