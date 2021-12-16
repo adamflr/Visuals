@@ -114,7 +114,7 @@ g2 <- ggplot(dat_temp, aes(Year, 0)) +
                                                     y = c(dat_temp$ChampionHeight[!is.na(dat_temp$ChampionNA)], rep(0, 17)))) + 
   geom_line(aes(x, y, group = gr), 
             data = data.frame(x = c(dat_temp$Year[!is.na(dat_temp$ChampionNA)], 
-                                    dat_temp$Year[!is.na(dat_temp$ChampionNA)][-1] - 1, 2021), 
+                                    dat_temp$Year[!is.na(dat_temp$ChampionNA)][-1] - 1, 2022), 
                               gr = 1:17,
                               y = dat_temp$ChampionHeight[!is.na(dat_temp$ChampionNA)])) +
   geom_point(aes(col = is.na(ChampionNA)), size = 5) +
@@ -123,6 +123,7 @@ g2 <- ggplot(dat_temp, aes(Year, 0)) +
   theme(legend.position = "none") +
   scale_color_manual(values = c("red", "black")) +
   theme_nothing() +
+  theme(panel.background = element_rect(color = "grey90", fill = "grey90")) +
   annotate("text", x = 2021, y = -0.85, hjust = 1, size = 1.75,
            label = paste0("Timeline of the chess world championship 1921 - 2021.\n",
                           "Follows the Kasparov continuity 1993 - 2005.\n",
@@ -132,6 +133,6 @@ g2 <- ggplot(dat_temp, aes(Year, 0)) +
            family = "serif")
 g2
 
-# ggsave("Chess WC/Output/Timeline6.pdf", g2, width = 59.4, height = 42/2, units = "cm")
-# ggsave("Chess WC/Output/Timeline6.png", g2, width = 65.4, height = 42/2, units = "cm")
+ggsave("Chess WC/Output/Timeline6.pdf", g2, width = 59.4, height = 42/2, units = "cm")
+ggsave("Chess WC/Output/Timeline6.png", g2, width = 65.4, height = 42/2, units = "cm")
 
