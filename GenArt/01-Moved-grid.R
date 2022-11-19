@@ -2,7 +2,7 @@
 library(tidyverse)
 library(patchwork)
 
-dat1 <- expand.grid(x = seq(0, 10, 0.15), y = seq(0, 10, 0.15))
+dat1 <- expand.grid(x = seq(0, 10, 0.5), y = seq(0, 10, 0.5))
 
 n <- 7
 dat_connection <- data.frame(x1 = sample(0:10, n, T),
@@ -57,5 +57,5 @@ g4 <- dat %>%
   geom_path(aes(group = as.character(y))) +
   coord_cartesian(xlim = c(-2, 12), ylim = c(-2, 12))
 
-g1 + g2 + g4 & theme_void()
+g1 + g2 + g4 & theme_void() & coord_polar()
 
