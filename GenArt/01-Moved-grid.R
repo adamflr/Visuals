@@ -2,13 +2,17 @@
 library(tidyverse)
 library(patchwork)
 
+# set.seed(20)
+
 dat1 <- expand.grid(x = seq(0, 10, 0.15), y = seq(0, 10, 0.15))
 
-n <- 7
+n <- 5
 dat_connection <- data.frame(x1 = sample(0:10, n, T),
                              y1 = sample(0:10, n, T))
-dat_connection$x2 <- dat_connection$x1 + sample(c(-1,0,1), n, T)
-dat_connection$y2 <- dat_connection$y1 + sample(c(-1,0,1), n, T)
+dat_connection$x2 <- dat_connection$x1 + runif(n, -2, 2)
+dat_connection$y2 <- dat_connection$y1 + runif(n, -1, 1)
+
+# dat_connection <- tibble(x1 = c(5, 2, 8), y1 = c(0, 7, 7), x2 = c(5, 8, 2), y2 = c(7, 0, 0))
 
 g1 <- dat1 %>% 
   ggplot(aes(x, y)) +
@@ -58,4 +62,3 @@ g4 <- dat %>%
   coord_cartesian(xlim = c(-2, 12), ylim = c(-2, 12))
 
 g1 + g2 + g4 & theme_void()
-
