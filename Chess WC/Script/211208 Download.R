@@ -2,15 +2,15 @@ path <- "http://ratings.fide.com/download/standard_may21frl.zip"
 
 library(stringr)
 library(tidyverse)
-dat <- expand_grid(year = 19:21, month = lubridate::month(1:12, label = T, abbr = T)) %>% 
+dat <- expand_grid(year = 22:23, month = lubridate::month(1:12, label = T, abbr = T)) %>% 
   mutate(month = as.character(month),
          month = ifelse(month == "maj", "may", month),
          month = ifelse(month == "okt", "oct", month),
          mo_ye = paste0(month, year),
          path = paste0("http://ratings.fide.com/download/standard_", mo_ye, "frl.zip"),
-         month_no = rep(1:12, 3))
-
-for(i in 9:36){
+         month_no = rep(1:12, 2))
+dat <- dat[1:16,]
+for(i in 1:nrow(dat)){
   download.file(dat$path[i], paste0("fide_", dat$mo_ye[i], ".zip"))
 }
 
@@ -73,14 +73,15 @@ dat6 <- dat5 %>%
 ggplot(dat6, aes(as.numeric(Year) + (Month - 1)/12, Rating, group = Ranking)) +
   geom_line()
 
-# write_csv(dat6, "Chess WC/Data/elo_update.csv")
+write_csv(dat6, "Chess WC/Data/elo_update.csv")
 
 # Merge new data and old data
 dat_new <- read_csv("Chess WC/Data/elo_update.csv")
 dat_old <- read_csv("Chess WC/Data/merged_elo_series.csv")
 
 dat <- bind_rows(dat_new, dat_old) %>% 
-  arrange(-Year, -Month) %>% 
-  select(-...1)
+  arrange(-Year, -Month)
 
 write_csv(dat, "Chess WC/Data/merged_elo_series.csv")
+
+dat %>% count(Year, Month) %>% print(n = 30000)

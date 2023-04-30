@@ -1,4 +1,164 @@
 Player,Rating,Year,Month,Source,Ranking,Last name,Champion,Champion status
+"Carlsen, Magnus",2853,2023,4,fide,1,Carlsen,Carlsen 1,Champion
+"Nepomniachtchi, Ian",2795,2023,4,fide,2,Nepomniachtchi,Carlsen 1,Not champion
+"Ding, Liren",2788,2023,4,fide,3,Ding,Carlsen 1,Not champion
+"Firouzja, Alireza",2785,2023,4,fide,4,Firouzja,Carlsen 1,Not champion
+"Nakamura, Hikaru",2775,2023,4,fide,5,Nakamura,Carlsen 1,Not champion
+"Giri, Anish",2768,2023,4,fide,6,Giri,Carlsen 1,Not champion
+"Caruana, Fabiano",2764,2023,4,fide,7,Caruana,Carlsen 1,Not champion
+"So, Wesley",2760,2023,4,fide,8,So,Carlsen 1,Not champion
+"Anand, Viswanathan",2754,2023,4,fide,9,Anand,Carlsen 1,Not champion
+"Kramnik, Vladimir",2753,2023,4,fide,10,Kramnik,Carlsen 1,Not champion
+"Carlsen, Magnus",2852,2023,3,fide,1,Carlsen,Carlsen 1,Champion
+"Nepomniachtchi, Ian",2795,2023,3,fide,2,Nepomniachtchi,Carlsen 1,Not champion
+"Ding, Liren",2788,2023,3,fide,3,Ding,Carlsen 1,Not champion
+"Firouzja, Alireza",2785,2023,3,fide,4,Firouzja,Carlsen 1,Not champion
+"Giri, Anish",2768,2023,3,fide,5,Giri,Carlsen 1,Not champion
+"Nakamura, Hikaru",2768,2023,3,fide,6,Nakamura,Carlsen 1,Not champion
+"Caruana, Fabiano",2766,2023,3,fide,7,Caruana,Carlsen 1,Not champion
+"So, Wesley",2761,2023,3,fide,8,So,Carlsen 1,Not champion
+"Anand, Viswanathan",2754,2023,3,fide,9,Anand,Carlsen 1,Not champion
+"Kramnik, Vladimir",2753,2023,3,fide,10,Kramnik,Carlsen 1,Not champion
+"Carlsen, Magnus",2852,2023,2,fide,1,Carlsen,Carlsen 1,Champion
+"Nepomniachtchi, Ian",2793,2023,2,fide,2,Nepomniachtchi,Carlsen 1,Not champion
+"Ding, Liren",2788,2023,2,fide,3,Ding,Carlsen 1,Not champion
+"Firouzja, Alireza",2785,2023,2,fide,4,Firouzja,Carlsen 1,Not champion
+"Giri, Anish",2780,2023,2,fide,5,Giri,Carlsen 1,Not champion
+"Nakamura, Hikaru",2768,2023,2,fide,6,Nakamura,Carlsen 1,Not champion
+"Caruana, Fabiano",2766,2023,2,fide,7,Caruana,Carlsen 1,Not champion
+"So, Wesley",2766,2023,2,fide,8,So,Carlsen 1,Not champion
+"Anand, Viswanathan",2754,2023,2,fide,9,Anand,Carlsen 1,Not champion
+"Kramnik, Vladimir",2753,2023,2,fide,10,Kramnik,Carlsen 1,Not champion
+"Carlsen, Magnus",2859,2023,1,fide,1,Carlsen,Carlsen 1,Champion
+"Ding, Liren",2811,2023,1,fide,2,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2793,2023,1,fide,3,Nepomniachtchi,Carlsen 1,Not champion
+"Firouzja, Alireza",2785,2023,1,fide,4,Firouzja,Carlsen 1,Not champion
+"Nakamura, Hikaru",2768,2023,1,fide,5,Nakamura,Carlsen 1,Not champion
+"Caruana, Fabiano",2766,2023,1,fide,6,Caruana,Carlsen 1,Not champion
+"Giri, Anish",2764,2023,1,fide,7,Giri,Carlsen 1,Not champion
+"So, Wesley",2760,2023,1,fide,8,So,Carlsen 1,Not champion
+"Anand, Viswanathan",2754,2023,1,fide,9,Anand,Carlsen 1,Not champion
+"Kramnik, Vladimir",2753,2023,1,fide,10,Kramnik,Carlsen 1,Not champion
+"Carlsen, Magnus",2859,2022,12,fide,1,Carlsen,Carlsen 1,Champion
+"Ding, Liren",2811,2022,12,fide,2,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2793,2022,12,fide,3,Nepomniachtchi,Carlsen 1,Not champion
+"Firouzja, Alireza",2785,2022,12,fide,4,Firouzja,Carlsen 1,Not champion
+"Nakamura, Hikaru",2768,2022,12,fide,5,Nakamura,Carlsen 1,Not champion
+"Caruana, Fabiano",2766,2022,12,fide,6,Caruana,Carlsen 1,Not champion
+"Giri, Anish",2764,2022,12,fide,7,Giri,Carlsen 1,Not champion
+"So, Wesley",2760,2022,12,fide,8,So,Carlsen 1,Not champion
+"Anand, Viswanathan",2754,2022,12,fide,9,Anand,Carlsen 1,Not champion
+"Kramnik, Vladimir",2753,2022,12,fide,10,Kramnik,Carlsen 1,Not champion
+"Carlsen, Magnus",2859,2022,11,fide,1,Carlsen,Carlsen 1,Champion
+"Ding, Liren",2811,2022,11,fide,2,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2793,2022,11,fide,3,Nepomniachtchi,Carlsen 1,Not champion
+"Firouzja, Alireza",2785,2022,11,fide,4,Firouzja,Carlsen 1,Not champion
+"Nakamura, Hikaru",2768,2022,11,fide,5,Nakamura,Carlsen 1,Not champion
+"Caruana, Fabiano",2766,2022,11,fide,6,Caruana,Carlsen 1,Not champion
+"Giri, Anish",2764,2022,11,fide,7,Giri,Carlsen 1,Not champion
+"So, Wesley",2760,2022,11,fide,8,So,Carlsen 1,Not champion
+"Anand, Viswanathan",2754,2022,11,fide,9,Anand,Carlsen 1,Not champion
+"Kramnik, Vladimir",2753,2022,11,fide,10,Kramnik,Carlsen 1,Not champion
+"Carlsen, Magnus",2856,2022,10,fide,1,Carlsen,Carlsen 1,Champion
+"Ding, Liren",2811,2022,10,fide,2,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2793,2022,10,fide,3,Nepomniachtchi,Carlsen 1,Not champion
+"Firouzja, Alireza",2785,2022,10,fide,4,Firouzja,Carlsen 1,Not champion
+"So, Wesley",2774,2022,10,fide,5,So,Carlsen 1,Not champion
+"Nakamura, Hikaru",2768,2022,10,fide,6,Nakamura,Carlsen 1,Not champion
+"Giri, Anish",2764,2022,10,fide,7,Giri,Carlsen 1,Not champion
+"Caruana, Fabiano",2763,2022,10,fide,8,Caruana,Carlsen 1,Not champion
+"Anand, Viswanathan",2756,2022,10,fide,9,Anand,Carlsen 1,Not champion
+"Aronian, Levon",2755,2022,10,fide,10,Aronian,Carlsen 1,Not champion
+"Carlsen, Magnus",2861,2022,9,fide,1,Carlsen,Carlsen 1,Champion
+"Ding, Liren",2808,2022,9,fide,2,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2792,2022,9,fide,3,Nepomniachtchi,Carlsen 1,Not champion
+"Firouzja, Alireza",2778,2022,9,fide,4,Firouzja,Carlsen 1,Not champion
+"So, Wesley",2771,2022,9,fide,5,So,Carlsen 1,Not champion
+"Nakamura, Hikaru",2768,2022,9,fide,6,Nakamura,Carlsen 1,Not champion
+"Giri, Anish",2764,2022,9,fide,7,Giri,Carlsen 1,Not champion
+"Aronian, Levon",2759,2022,9,fide,8,Aronian,Carlsen 1,Not champion
+"Caruana, Fabiano",2758,2022,9,fide,9,Caruana,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2757,2022,9,fide,10,Mamedyarov,Carlsen 1,Not champion
+"Carlsen, Magnus",2864,2022,8,fide,1,Carlsen,Carlsen 1,Champion
+"Ding, Liren",2808,2022,8,fide,2,Ding,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2792,2022,8,fide,3,Nepomniachtchi,Carlsen 1,Not champion
+"Firouzja, Alireza",2778,2022,8,fide,4,Firouzja,Carlsen 1,Not champion
+"Caruana, Fabiano",2776,2022,8,fide,5,Caruana,Carlsen 1,Not champion
+"Aronian, Levon",2775,2022,8,fide,6,Aronian,Carlsen 1,Not champion
+"So, Wesley",2773,2022,8,fide,7,So,Carlsen 1,Not champion
+"Nakamura, Hikaru",2768,2022,8,fide,8,Nakamura,Carlsen 1,Not champion
+"Giri, Anish",2760,2022,8,fide,9,Giri,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2758,2022,8,fide,10,Mamedyarov,Carlsen 1,Not champion
+"Carlsen, Magnus",2864,2022,7,fide,1,Carlsen,Carlsen 1,Champion
+"Ding, Liren",2806,2022,7,fide,2,Ding,Carlsen 1,Not champion
+"Firouzja, Alireza",2793,2022,7,fide,3,Firouzja,Carlsen 1,Not champion
+"Caruana, Fabiano",2783,2022,7,fide,4,Caruana,Carlsen 1,Not champion
+"Aronian, Levon",2775,2022,7,fide,5,Aronian,Carlsen 1,Not champion
+"So, Wesley",2773,2022,7,fide,6,So,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2766,2022,7,fide,7,Nepomniachtchi,Carlsen 1,Not champion
+"Rapport, Richard",2764,2022,7,fide,8,Rapport,Carlsen 1,Not champion
+"Giri, Anish",2760,2022,7,fide,9,Giri,Carlsen 1,Not champion
+"Nakamura, Hikaru",2760,2022,7,fide,10,Nakamura,Carlsen 1,Not champion
+"Carlsen, Magnus",2864,2022,6,fide,1,Carlsen,Carlsen 1,Champion
+"Ding, Liren",2806,2022,6,fide,2,Ding,Carlsen 1,Not champion
+"Firouzja, Alireza",2793,2022,6,fide,3,Firouzja,Carlsen 1,Not champion
+"Caruana, Fabiano",2783,2022,6,fide,4,Caruana,Carlsen 1,Not champion
+"Aronian, Levon",2775,2022,6,fide,5,Aronian,Carlsen 1,Not champion
+"So, Wesley",2775,2022,6,fide,6,So,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2766,2022,6,fide,7,Nepomniachtchi,Carlsen 1,Not champion
+"Rapport, Richard",2764,2022,6,fide,8,Rapport,Carlsen 1,Not champion
+"Giri, Anish",2761,2022,6,fide,9,Giri,Carlsen 1,Not champion
+"Nakamura, Hikaru",2760,2022,6,fide,10,Nakamura,Carlsen 1,Not champion
+"Carlsen, Magnus",2864,2022,5,fide,1,Carlsen,Carlsen 1,Champion
+"Ding, Liren",2806,2022,5,fide,2,Ding,Carlsen 1,Not champion
+"Firouzja, Alireza",2804,2022,5,fide,3,Firouzja,Carlsen 1,Not champion
+"Caruana, Fabiano",2786,2022,5,fide,4,Caruana,Carlsen 1,Not champion
+"Rapport, Richard",2776,2022,5,fide,5,Rapport,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2773,2022,5,fide,6,Nepomniachtchi,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2770,2022,5,fide,7,Mamedyarov,Carlsen 1,Not champion
+"So, Wesley",2766,2022,5,fide,8,So,Carlsen 1,Not champion
+"Aronian, Levon",2765,2022,5,fide,9,Aronian,Carlsen 1,Not champion
+"Giri, Anish",2761,2022,5,fide,10,Giri,Carlsen 1,Not champion
+"Carlsen, Magnus",2864,2022,4,fide,1,Carlsen,Carlsen 1,Champion
+"Firouzja, Alireza",2804,2022,4,fide,2,Firouzja,Carlsen 1,Not champion
+"Ding, Liren",2799,2022,4,fide,3,Ding,Carlsen 1,Not champion
+"Aronian, Levon",2785,2022,4,fide,4,Aronian,Carlsen 1,Not champion
+"Caruana, Fabiano",2781,2022,4,fide,5,Caruana,Carlsen 1,Not champion
+"So, Wesley",2778,2022,4,fide,6,So,Carlsen 1,Not champion
+"Rapport, Richard",2776,2022,4,fide,7,Rapport,Carlsen 1,Not champion
+"Giri, Anish",2773,2022,4,fide,8,Giri,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2773,2022,4,fide,9,Nepomniachtchi,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2771,2022,4,fide,10,Mamedyarov,Carlsen 1,Not champion
+"Carlsen, Magnus",2864,2022,3,fide,1,Carlsen,Carlsen 1,Champion
+"Firouzja, Alireza",2804,2022,3,fide,2,Firouzja,Carlsen 1,Not champion
+"Ding, Liren",2799,2022,3,fide,3,Ding,Carlsen 1,Not champion
+"Aronian, Levon",2785,2022,3,fide,4,Aronian,Carlsen 1,Not champion
+"Caruana, Fabiano",2781,2022,3,fide,5,Caruana,Carlsen 1,Not champion
+"So, Wesley",2778,2022,3,fide,6,So,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2776,2022,3,fide,7,Mamedyarov,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2773,2022,3,fide,8,Nepomniachtchi,Carlsen 1,Not champion
+"Giri, Anish",2771,2022,3,fide,9,Giri,Carlsen 1,Not champion
+"Rapport, Richard",2762,2022,3,fide,10,Rapport,Carlsen 1,Not champion
+"Carlsen, Magnus",2865,2022,2,fide,1,Carlsen,Carlsen 1,Champion
+"Firouzja, Alireza",2804,2022,2,fide,2,Firouzja,Carlsen 1,Not champion
+"Ding, Liren",2799,2022,2,fide,3,Ding,Carlsen 1,Not champion
+"Caruana, Fabiano",2792,2022,2,fide,4,Caruana,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2773,2022,2,fide,5,Nepomniachtchi,Carlsen 1,Not champion
+"Aronian, Levon",2772,2022,2,fide,6,Aronian,Carlsen 1,Not champion
+"Giri, Anish",2772,2022,2,fide,7,Giri,Carlsen 1,Not champion
+"So, Wesley",2772,2022,2,fide,8,So,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2767,2022,2,fide,9,Mamedyarov,Carlsen 1,Not champion
+"Grischuk, Alexander",2764,2022,2,fide,10,Grischuk,Carlsen 1,Not champion
+"Carlsen, Magnus",2865,2022,1,fide,1,Carlsen,Carlsen 1,Champion
+"Firouzja, Alireza",2804,2022,1,fide,2,Firouzja,Carlsen 1,Not champion
+"Ding, Liren",2799,2022,1,fide,3,Ding,Carlsen 1,Not champion
+"Caruana, Fabiano",2792,2022,1,fide,4,Caruana,Carlsen 1,Not champion
+"Nepomniachtchi, Ian",2773,2022,1,fide,5,Nepomniachtchi,Carlsen 1,Not champion
+"Aronian, Levon",2772,2022,1,fide,6,Aronian,Carlsen 1,Not champion
+"Giri, Anish",2772,2022,1,fide,7,Giri,Carlsen 1,Not champion
+"So, Wesley",2772,2022,1,fide,8,So,Carlsen 1,Not champion
+"Mamedyarov, Shakhriyar",2767,2022,1,fide,9,Mamedyarov,Carlsen 1,Not champion
+"Grischuk, Alexander",2764,2022,1,fide,10,Grischuk,Carlsen 1,Not champion
 "Carlsen, Magnus",2856,2021,12,fide,1,Carlsen,Carlsen 1,Champion
 "Firouzja, Alireza",2804,2021,12,fide,2,Firouzja,Carlsen 1,Not champion
 "Ding, Liren",2799,2021,12,fide,3,Ding,Carlsen 1,Not champion

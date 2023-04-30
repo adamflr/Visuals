@@ -27,7 +27,7 @@ dat_matches %>%
 # Timeline, wo FIDE 90s ----
 g <- dat_matches %>% 
   filter(Status != "FIDE WCC") %>% 
-  mutate(EndYear = c(Year[2:length(Year)], 2019),
+  mutate(EndYear = c(Year[2:length(Year)], 2025),
          cycle = 1:length(Year)) %>% 
   select(Champion2, Year, EndYear, cycle, Status) %>% 
   melt(c("Champion2", "cycle", "Status")) %>% 
@@ -56,11 +56,11 @@ g <- ggplot(dat_temp, aes(Year, 0)) +
   geom_text(aes(label = `Runner-up`, x = Year), 
             angle = 90, hjust = 1, vjust = 0.35, nudge_y = -0.015) +
   geom_line(aes(x, y, group = x), data = data.frame(x = rep(dat_temp$Year[!is.na(dat_temp$ChampionNA)], 2),
-                                                    y = c(dat_temp$ChampionHeight[!is.na(dat_temp$ChampionNA)], rep(0, 17)))) + 
+                                                    y = c(dat_temp$ChampionHeight[!is.na(dat_temp$ChampionNA)], rep(0, 18)))) + 
   geom_line(aes(x, y, group = gr), 
             data = data.frame(x = c(dat_temp$Year[!is.na(dat_temp$ChampionNA)], 
-                                    dat_temp$Year[!is.na(dat_temp$ChampionNA)][-1] - 1, 2021), 
-                              gr = 1:17,
+                                    dat_temp$Year[!is.na(dat_temp$ChampionNA)][-1] - 1, 2025), 
+                              gr = 1:18,
                               y = dat_temp$ChampionHeight[!is.na(dat_temp$ChampionNA)])) +
   geom_point(aes(col = is.na(ChampionNA)), size = 5) +
   geom_text(aes(label = Year), size = 1.5, col = ifelse(is.na(dat_temp$ChampionNA), "white", "black")) + 
@@ -78,12 +78,19 @@ dat_elo %>%
   filter(Year > 1920) %>% 
   mutate(RatingStand = (Rating - min(Rating)) / (max(Rating) - min(Rating))) -> dat_elo
 
-dat_temp %>% mutate(ChampionHeight = ifelse(Champion2 %in% c("Smyslov", "Tal", "Petrosian"), 1.2, 1.3)) -> dat_temp
+dat_elo <- dat_elo %>% 
+  mutate(Champion = ifelse(Year >= 2023 & Month >= 4, "Nepomniatchtchi", Champion),
+         Champion.status = ifelse(Year >= 2023 & Month >= 4, "Not champion", Champion.status),
+         Champion.status = ifelse(Year >= 2023 & Month >= 4 & Last.name == "Nepomniachtchi", "Champion", Champion.status))
 
+dat_temp %>% mutate(ChampionHeight = ifelse(Champion2 %in% c("Smyslov", "Tal", "Petrosian"), 1.3, 1.3)) -> dat_temp
+dat_temp$ChampionHeight[c(11,13)] <- 1.2
+
+dat_temp$Year[40] <- 2023 + 3/12
 g2 <- ggplot(dat_temp, aes(Year, 0)) + 
-  geom_text(aes(label = ChampionNA, y = ChampionHeight), angle = 0, hjust = 0, vjust = 0, nudge_y = 0.01, family = "serif") +
+  geom_text(aes(label = ChampionNA, y = ChampionHeight), angle = 0, hjust = 0, vjust = 0, nudge_y = 0.01, size = 3, family = "serif") +
   geom_text(aes(label = `Runner-up`, x = Year), 
-            angle = 90, hjust = 1, vjust = 0.35, nudge_y = -0.045, family = "serif") +
+            angle = 90, hjust = 1, vjust = 0.35, nudge_y = -0.045, size = 2.5, family = "serif") +
   geom_line(aes(Year + (Month - 1) / 12, RatingStand, group = Ranking), inherit.aes = F, 
             data = dat_elo %>% filter(Year > 1920), alpha = 0.2) +
   geom_text(aes(x, y, label = text), 
@@ -101,30 +108,39 @@ g2 <- ggplot(dat_temp, aes(Year, 0)) +
                                             "Aronian and Grischuk.")), 
             hjust = 0, size = 2, nudge_x = -0.5, family = "serif") +
   geom_text(aes(x, y, label = text), 
+            data = data.frame(x = 2023, y = -0.5, 
+                              text = paste0("In 2023, Carlsen resigns as \n",
+                                            "world champion. Nepomniachtchi \n",
+                                            "and Ding compete in the \n",
+                                            "championship match.")), 
+            hjust = 0, size = 2, nudge_x = -0.5, family = "serif") +
+  geom_text(aes(x, y, label = text), 
             data = data.frame(x = 1975, y = -0.5, 
                               text = paste0("In 1974, Karpov wins the Candidates\n",
-                                            "in a final versus Korchnoi,\n",
-                                            "and becomes world champion in 1975 as Fisher\n", 
+                                            "in a final versus Korchnoi and\n",
+                                            "becomes world champion in 1975 as Fisher\n", 
                                             "forfeits the championship match.")), 
             hjust = 0, size = 2, nudge_x = -0.5, family = "serif") +
   geom_smooth(aes(Year + (Month - 1) / 12, RatingStand, group = Champion), 
               data = dat_elo %>% filter(Champion.status == "Champion", Year > 1920), 
               inherit.aes = F, col = "red", se = F) +
-  geom_line(aes(x, y, group = x), data = data.frame(x = rep(dat_temp$Year[!is.na(dat_temp$ChampionNA)], 2),
-                                                    y = c(dat_temp$ChampionHeight[!is.na(dat_temp$ChampionNA)], rep(0, 17)))) + 
-  geom_line(aes(x, y, group = gr), 
-            data = data.frame(x = c(dat_temp$Year[!is.na(dat_temp$ChampionNA)], 
-                                    dat_temp$Year[!is.na(dat_temp$ChampionNA)][-1] - 1, 2022), 
-                              gr = 1:17,
-                              y = dat_temp$ChampionHeight[!is.na(dat_temp$ChampionNA)])) +
-  geom_point(aes(col = is.na(ChampionNA)), size = 5) +
-  geom_text(aes(label = Year), size = 1.5, col = ifelse(is.na(dat_temp$ChampionNA), "white", "black"), family = "serif") + 
+  geom_line(aes(x, y, group = x), alpha = 0.5,
+            data = data.frame(x = rep(dat_temp$Year[!is.na(dat_temp$ChampionNA)], 2),
+                                                    y = c(dat_temp$ChampionHeight[!is.na(dat_temp$ChampionNA)], rep(0, 18)))) + 
+  # geom_line(aes(x, y, group = gr), 
+  #           data = data.frame(x = c(dat_temp$Year[!is.na(dat_temp$ChampionNA)] - 0.02, 
+  #                                   dat_temp$Year[!is.na(dat_temp$ChampionNA)][-1] - 1, 2025), 
+  #                             gr = 1:18,
+  #                             y = dat_temp$ChampionHeight[!is.na(dat_temp$ChampionNA)])) +
+  geom_point(aes(col = is.na(ChampionNA)), size = 5, shape = 16) +
+  geom_text(aes(label = floor(Year)), size = 1.5, col = ifelse(is.na(dat_temp$ChampionNA), "white", "black"), family = "serif") + 
   ylim(-0.95, 1.7) +
+  xlim(1920, 2028) +
   theme(legend.position = "none") +
   scale_color_manual(values = c("red", "black")) +
   theme_nothing() +
-  theme(panel.background = element_rect(color = "grey90", fill = "grey90")) +
-  annotate("text", x = 2021, y = -0.85, hjust = 1, size = 1.75,
+  theme(panel.background = element_rect(color = "#ffd29f", fill = "#ffd29f")) +
+  annotate("text", x = 2025, y = -0.85, hjust = 1, size = 1.75,
            label = paste0("Timeline of the chess world championship 1921 - 2021.\n",
                           "Follows the Kasparov continuity 1993 - 2005.\n",
                           "Ratings of world top ten given as grey lines.\n",

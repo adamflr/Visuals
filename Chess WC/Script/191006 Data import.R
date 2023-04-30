@@ -8,7 +8,7 @@ names(dat_matches) <- c("Year", "Host country", "Host city", "Champion",
                         "Runner-up", "Won", "Lost", "Draw", "Format", "Comment 1", "Comments 2")
 
 dat_matches$`Status` <- rep(c("Unofficial", "Official WCC", "Official FIDE WCC", "Classical WCC", "FIDE WCC", "WCC"),
-                            c(9, 16, 19, 4, 8, 10))
+                            c(9, 16, 19, 4, 8, 11))
 
 dat_matches$Champion[40] <- "Anatoly Karpov"
 dat_matches$`Runner-up`[40] <- "Garry Kasparov"
